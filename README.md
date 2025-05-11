@@ -36,7 +36,19 @@ The Goal of Horizon Avionics was to be able to build a full-fledged, and open-so
 
 For the most part, this will all be explained over on the software repo, but a short synopsis will be provided below.
 
+In short, we have 3 micro-controllers, the MMCU, the TMCU, and the NMCU. Each one of these MCU's is responsible for a different aspect of the functionality of the flight computer.  
 
+- **The TMCU**
+
+​	The TMCU is responsible for a number of different things. It takes in all the raw data from the IMU, Baro and the GPS data and sending it to the MMCU via SPI for filtering and logging. 
+
+- **The NMCU**
+
+  
+
+- **The MMCU**
+
+  
 
 ------
 
