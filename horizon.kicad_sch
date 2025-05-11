@@ -1452,12 +1452,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "L96 is a concurrent multi-GNSS receiver module with embedded chip antenna. With 33 tracking channels, 99 acquisition channels and 210 PRN channels, L96 supports concurrent reception of up to three GNSS systems _GPS+GLONASS+Galileo_"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1472,16 +1473,6 @@
 				)
 			)
 			(property "MF" "Quectel"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "L96 is a concurrent multi-GNSS receiver module with embedded chip antenna. With 33 tracking channels, 99 acquisition channels and 210 PRN channels, L96 supports concurrent reception of up to three GNSS systems _GPS+GLONASS+Galileo_"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5987,7 +5978,7 @@
 				)
 			)
 		)
-		(property "Value" "MK20DX256VLH7"
+		(property "Value" "MMCU"
 			(at 165.1 275.59 0)
 			(effects
 				(font
@@ -6100,6 +6091,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ".\\"
+			(at 163.83 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6323,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "NAND"
 			(at -160.02 408.9399 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATSAMD21J16B-A"
+		(property "Value" "TMCU"
 			(at -1.6667 391.16 0)
 			(effects
 				(font
@@ -6938,7 +6938,7 @@
 				)
 			)
 		)
-		(property "Value" "BNO086"
+		(property "Value" "IMU"
 			(at 243.84 316.23 0)
 			(effects
 				(font
@@ -6965,7 +6965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IMU"
 			(at 243.84 339.09 0)
 			(effects
 				(font
@@ -7298,7 +7298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ATSAMD21J16B-A"
+		(property "Value" "NMCU"
 			(at 64.3733 388.62 0)
 			(effects
 				(font
@@ -7553,7 +7553,7 @@
 				)
 			)
 		)
-		(property "Value" "L96-M33"
+		(property "Value" "GPS"
 			(at -129.54 336.55 0)
 			(effects
 				(font
