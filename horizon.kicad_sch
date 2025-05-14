@@ -10766,6 +10766,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "D+ and D- pins"
+		(exclude_from_sim no)
+		(at -235.712 280.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09096671-d3c6-43e2-9465-b15c6266a620")
+	)
+	(text "I²C Lines\nJ4 pin 1 → SDA0 (PTA18)\nJ4 pin 2 → SCL0 (PTA19)"
+		(exclude_from_sim no)
+		(at -326.136 223.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c3cf623-d136-4623-82e1-a25355baaa51")
+	)
+	(text "I²C\nSDA (Data): A22\nSCL (Clock): A23"
+		(exclude_from_sim no)
+		(at -208.534 237.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11b545bf-3028-4252-8d3d-e209b59ee50e")
+	)
+	(text "D+ and D- pins"
+		(exclude_from_sim no)
+		(at -201.422 247.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2df24363-7dbe-47d0-91bb-7ce40f194c73")
+	)
+	(text "D+ and D- pins"
+		(exclude_from_sim no)
+		(at -127.508 244.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a6e5a6c-9c11-47c4-abb9-bb05f6625b21")
+	)
+	(text "I²C\nSDA (Data): A22\nSCL (Clock): A23"
+		(exclude_from_sim no)
+		(at -134.112 233.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "609bd1c9-9836-486b-a33e-62fd8798190d")
+	)
 	(junction
 		(at 74.93 -80.01)
 		(diameter 0)
@@ -13326,6 +13386,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at -311.15 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0860aac8-c7f8-472a-ad75-3552bfd95c00")
+		(property "Reference" "J7"
+			(at -311.15 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at -311.15 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -311.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -311.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -311.15 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9dbc576-f56f-433a-bfb1-ee0f6e3891e8")
+		)
+		(pin "2"
+			(uuid "8dfb14c5-d89a-4cfc-811e-ed7a472b4be4")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF:SX1276")
 		(at 344.17 247.65 0)
 		(unit 1)
@@ -13484,7 +13612,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0917d484-e751-44a0-96b4-4d3c215839ab")
 		(property "Reference" "#PWR04"
 			(at -241.3 220.98 0)
@@ -13496,7 +13623,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -242.57 220.9799 90)
+			(at -244.348 221.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,7 +14229,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29c32d1b-8fc2-48dd-b6cf-ab4a4306e580")
 		(property "Reference" "#PWR01"
 			(at -241.3 203.2 0)
@@ -14114,7 +14240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -242.57 203.1999 90)
+			(at -244.348 203.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17727,7 +17853,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_SAMD:ATSAMD21J16B-A")
-		(at -156.21 220.98 0)
+		(at -101.6 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17736,7 +17862,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e40b803-4601-4d46-944f-3d46ed680cab")
 		(property "Reference" "U4"
-			(at -151.5267 269.24 0)
+			(at -96.9167 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +17871,7 @@
 			)
 		)
 		(property "Value" "TMCU"
-			(at -151.5267 271.78 0)
+			(at -96.9167 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +17880,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm"
-			(at -132.08 267.97 0)
+			(at -77.47 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,7 +17889,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
-			(at -156.21 195.58 0)
+			(at -101.6 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17898,7 @@
 			)
 		)
 		(property "Description" "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, TQFP-64"
-			(at -156.21 220.98 0)
+			(at -101.6 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18059,7 +18185,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7725227b-4d60-4a9b-9c90-5bcec55f36e4")
 		(property "Reference" "#PWR03"
 			(at -241.3 205.74 0)
@@ -18071,7 +18196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -242.57 205.7399 90)
+			(at -244.348 205.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18653,7 +18778,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c7c2fec-cd7b-4a41-8b32-82abbe628f3d")
 		(property "Reference" "#PWR05"
 			(at -241.3 223.52 0)
@@ -18665,7 +18789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -242.57 223.5199 90)
+			(at -244.348 223.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19072,7 +19196,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_SAMD:ATSAMD21J16B-A")
-		(at -208.28 217.17 0)
+		(at -175.26 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19081,7 +19205,7 @@
 		(fields_autoplaced yes)
 		(uuid "862f885a-8e45-4075-b066-c485f49eccf3")
 		(property "Reference" "U3"
-			(at -203.5967 265.43 0)
+			(at -170.5767 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19090,7 +19214,7 @@
 			)
 		)
 		(property "Value" "NMCU"
-			(at -203.5967 267.97 0)
+			(at -170.5767 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19099,7 +19223,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm"
-			(at -184.15 264.16 0)
+			(at -151.13 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19108,7 +19232,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
-			(at -208.28 191.77 0)
+			(at -175.26 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19241,7 @@
 			)
 		)
 		(property "Description" "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, TQFP-64"
-			(at -208.28 217.17 0)
+			(at -175.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20061,16 +20185,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at -231.14 240.03 180)
+		(at -198.12 245.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93e9ba0f-ffdb-4002-b8c3-4f7477165412")
 		(property "Reference" "J5"
-			(at -231.14 231.14 0)
+			(at -205.994 242.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20078,7 +20201,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at -231.14 233.68 0)
+			(at -205.994 244.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20086,7 +20209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -231.14 240.03 0)
+			(at -198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20095,7 +20218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -231.14 240.03 0)
+			(at -198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20104,7 +20227,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at -231.14 240.03 0)
+			(at -198.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20605,16 +20728,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at -179.07 243.84 180)
+		(at -124.46 241.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9efb1e00-60ce-4e68-94b4-b37705c1ccfa")
 		(property "Reference" "J6"
-			(at -179.07 234.95 0)
+			(at -132.334 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20622,7 +20744,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at -179.07 237.49 0)
+			(at -132.334 241.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20630,7 +20752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -179.07 243.84 0)
+			(at -124.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20639,7 +20761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -179.07 243.84 0)
+			(at -124.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20648,7 +20770,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at -179.07 243.84 0)
+			(at -124.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21965,7 +22087,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7f4a5f5-0283-42dc-b18e-7049050b903f")
 		(property "Reference" "#PWR02"
 			(at -241.3 213.36 0)
@@ -21977,7 +22098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -242.57 213.3599 90)
+			(at -244.348 213.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22019,6 +22140,74 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at -198.12 240.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca61af32-d687-4ccf-93cc-026588660e28")
+		(property "Reference" "J8"
+			(at -198.12 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at -198.12 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -198.12 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -198.12 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -198.12 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef5bdab-72a0-42df-bc0d-f5fb6e0a8ac3")
+		)
+		(pin "2"
+			(uuid "ae88c925-94b3-4be8-8e42-0af449bb86d0")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -22515,6 +22704,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at -101.6 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db3a3ba3-f025-4012-bb67-05e6f95c873f")
+		(property "Reference" "#PWR09"
+			(at -101.6 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -101.6 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -101.6 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -101.6 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -101.6 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a96e4a-d47d-4b2d-b59a-8b7f194f592b")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "L96-M33:L96-M33")
 		(at 402.59 248.92 0)
 		(unit 1)
@@ -22914,6 +23169,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at -124.46 236.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62045d9-cda0-4547-b43b-651e74e1b245")
+		(property "Reference" "J11"
+			(at -124.46 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at -124.46 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -124.46 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -124.46 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -124.46 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "053c5eb0-a100-4ec8-b2a9-4eead5e7dd06")
+		)
+		(pin "2"
+			(uuid "01e45f97-f0c4-4a6d-8bb2-39f1478b7dbc")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 -60.96 0)
 		(unit 1)
@@ -22974,6 +23297,72 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at -175.26 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e73e0a72-b155-41a9-a980-3c080d1f8c9c")
+		(property "Reference" "#PWR08"
+			(at -175.26 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at -175.26 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -175.26 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -175.26 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at -175.26 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "000935f4-224e-4aa9-b840-0896cef3c1df")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
