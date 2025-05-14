@@ -11184,6 +11184,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "For NAND and SD"
+		(exclude_from_sim no)
+		(at 293.878 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37c70a7d-910c-4d27-a59c-23a9f85ebd71")
+	)
 	(text "CHANGE TO GPIO PINS FOR SOFTWARE RESET"
 		(exclude_from_sim no)
 		(at 429.768 96.52 0)
@@ -11214,6 +11224,16 @@
 		)
 		(uuid "82965214-89a8-4853-9fc3-4cbdbed4f25f")
 	)
+	(text "For NAND and SD"
+		(exclude_from_sim no)
+		(at 311.912 197.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b17987b-dede-4869-aaba-bab2a0243a41")
+	)
 	(text "MCU → GPS TX"
 		(exclude_from_sim no)
 		(at 93.98 155.194 0)
@@ -11233,6 +11253,16 @@
 			)
 		)
 		(uuid "b1f1a05b-009c-4c94-8321-30506055fc41")
+	)
+	(text "For NAND and SD"
+		(exclude_from_sim no)
+		(at 293.37 160.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc053727-5e56-471f-b6aa-304a42fe5c05")
 	)
 	(text "TIE IT TO LOW to internal occilator"
 		(exclude_from_sim no)
