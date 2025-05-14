@@ -11194,6 +11194,16 @@
 		)
 		(uuid "3c735b57-db3d-40a0-a617-9b998990bacd")
 	)
+	(text "Pull low to talk to IMU"
+		(exclude_from_sim no)
+		(at 217.932 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "605bc033-eb1a-416d-8e31-146e2825ac5a")
+	)
 	(text "GPS → MCU RX"
 		(exclude_from_sim no)
 		(at 232.918 162.814 0)
@@ -11213,6 +11223,16 @@
 			)
 		)
 		(uuid "a2307b95-a5e8-487f-9484-a4f30e0d8b07")
+	)
+	(text "Set low to talk to BARO"
+		(exclude_from_sim no)
+		(at 299.466 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1f1a05b-009c-4c94-8321-30506055fc41")
 	)
 	(text "TIE IT TO LOW to internal occilator"
 		(exclude_from_sim no)
@@ -11661,6 +11681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bedc98db-e27b-47c8-b308-820fc643d727")
+	)
+	(junction
+		(at 477.52 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44d322d-cafb-481f-a787-c0450a9bc9d6")
 	)
 	(junction
 		(at 153.67 6.35)
@@ -13788,6 +13814,16 @@
 	)
 	(wire
 		(pts
+			(xy 474.98 229.87) (xy 477.52 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8edd720-c6f9-4d22-8448-78e10e1225f2")
+	)
+	(wire
+		(pts
 			(xy 200.66 25.4) (xy 199.39 24.13)
 		)
 		(stroke
@@ -14016,7 +14052,7 @@
 		)
 		(uuid "fe0cc0a7-8054-44b8-be06-7ae12ec56544")
 	)
-	(global_label "CHIP_SEL TMCU"
+	(global_label "CHIP_SEL_IMU TMCU"
 		(shape input)
 		(at 444.5 208.28 180)
 		(fields_autoplaced yes)
@@ -14028,7 +14064,7 @@
 		)
 		(uuid "00417f15-32ac-4ea2-a81d-27672a95837d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.6982 208.28 0)
+			(at 422.3439 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14161,6 +14197,50 @@
 		(uuid "10b600f0-304a-48c1-87e1-1fd2aea88d64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.189 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHIP_SEL TMCU"
+		(shape input)
+		(at 492.76 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11d91511-a6ec-4ce6-9cc5-1687985919fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 510.5618 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHIP_SEL_BARO TMCU"
+		(shape input)
+		(at 492.76 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "162ed73a-c2b6-441a-9e78-87b06d6f824a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 516.4885 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,6 +15042,28 @@
 			)
 		)
 	)
+	(global_label "CHIP_SEL_BARO TMCU"
+		(shape input)
+		(at 287.02 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac3bf2f5-5f4f-4e08-8f55-e7b8cf440e06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.7485 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI TMCU"
 		(shape input)
 		(at 251.46 177.8 180)
@@ -14984,6 +15086,28 @@
 			)
 		)
 	)
+	(global_label "MISO TMCU"
+		(shape input)
+		(at 492.76 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdf933ab-390b-4ef4-a9ad-55578c53d006")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 506.3285 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "bat"
 		(shape input)
 		(at 184.15 6.35 0)
@@ -14997,6 +15121,28 @@
 		(uuid "c6346952-7ea0-4f01-9bd7-e78b9300a94f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.1589 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Baro_int TMCU"
+		(shape input)
+		(at 492.76 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c70db891-8202-4f55-b06f-4f547190347a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 509.5336 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15068,6 +15214,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI TMCU"
+		(shape input)
+		(at 492.76 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4f3da67-d7b1-4c8a-94c3-83e50801c321")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 506.3285 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15204,7 +15372,7 @@
 			)
 		)
 	)
-	(global_label "CHIP_SEL TMCU"
+	(global_label "CHIP_SEL_IMU TMCU"
 		(shape input)
 		(at 251.46 190.5 180)
 		(fields_autoplaced yes)
@@ -15216,7 +15384,7 @@
 		)
 		(uuid "f071fba5-3788-48b7-8019-d3740ba77bbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.6582 190.5 0)
+			(at 229.3039 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,6 +19800,72 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 477.52 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e53880-51e5-4701-885e-ce59ed31ff6c")
+		(property "Reference" "#PWR063"
+			(at 477.52 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 477.52 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 477.52 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 477.52 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 477.52 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49b9d285-3aca-45b2-b991-56e76e79ddaa")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -29671,6 +29905,72 @@
 			(project ""
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 477.52 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e936905f-c83c-4ec9-a2d1-ee0c193ee1f3")
+		(property "Reference" "#PWR064"
+			(at 477.52 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 477.52 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 477.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 477.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 477.52 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92c92b2a-f0a8-42cd-a706-34715c2410f6")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
