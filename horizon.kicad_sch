@@ -11184,6 +11184,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SERCOM Stuff For Firmware INTCOMM"
+		(exclude_from_sim no)
+		(at 292.608 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e32c1aa-2fcc-4230-a0d9-7964cb1c7e69")
+	)
 	(text "For NAND and SD"
 		(exclude_from_sim no)
 		(at 293.878 157.48 0)
@@ -11244,6 +11254,16 @@
 		)
 		(uuid "9b17987b-dede-4869-aaba-bab2a0243a41")
 	)
+	(text "SERCOM Stuff For Firmware INTCOMM"
+		(exclude_from_sim no)
+		(at 83.058 199.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0673e42-8c0a-4574-8f06-299dfeb1ce57")
+	)
 	(text "MCU → GPS TX"
 		(exclude_from_sim no)
 		(at 93.98 155.194 0)
@@ -11263,6 +11283,16 @@
 			)
 		)
 		(uuid "b1f1a05b-009c-4c94-8321-30506055fc41")
+	)
+	(text "SERCOM Stuff For Firmware INTCOMM"
+		(exclude_from_sim no)
+		(at -13.462 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf6d93ba-977b-4387-94e0-0c49323f6e2d")
 	)
 	(text "INT from NAV"
 		(exclude_from_sim no)
