@@ -11184,6 +11184,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CHANGE TO GPIO PINS FOR SOFTWARE RESET"
+		(exclude_from_sim no)
+		(at 429.768 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c735b57-db3d-40a0-a617-9b998990bacd")
+	)
+	(text "GPS → MCU RX"
+		(exclude_from_sim no)
+		(at 232.918 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82965214-89a8-4853-9fc3-4cbdbed4f25f")
+	)
+	(text "MCU → GPS TX"
+		(exclude_from_sim no)
+		(at 232.41 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2307b95-a5e8-487f-9484-a4f30e0d8b07")
+	)
 	(text "TIE IT TO LOW to internal occilator"
 		(exclude_from_sim no)
 		(at 426.974 205.74 0)
@@ -11609,6 +11639,12 @@
 		(uuid "b45dbe47-e036-48a3-bb6f-21fa022ab6d4")
 	)
 	(junction
+		(at 494.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a9c48c-ca59-46b0-9218-035a0adc8eff")
+	)
+	(junction
 		(at -58.42 -24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11743,8 +11779,16 @@
 		(uuid "313737a6-72d3-4f43-9ff3-0bf51ed0f083")
 	)
 	(no_connect
+		(at 448.31 118.11)
+		(uuid "3f8e7cf9-eda9-4153-b04b-e86d9e31a9b8")
+	)
+	(no_connect
 		(at 260.35 256.54)
 		(uuid "beab9261-1ceb-4668-aa56-ebeb84704192")
+	)
+	(no_connect
+		(at 448.31 120.65)
+		(uuid "ca86913f-e3f5-4e3a-b1df-81ee018047ba")
 	)
 	(no_connect
 		(at 19.05 241.3)
@@ -12831,6 +12875,16 @@
 			(type default)
 		)
 		(uuid "78ee4c4f-d2f5-4242-b6ac-7f6e013ba083")
+	)
+	(wire
+		(pts
+			(xy 494.03 97.79) (xy 494.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7badf24c-62c8-4c85-adb6-0e80fecd4348")
 	)
 	(wire
 		(pts
@@ -14468,6 +14522,28 @@
 			)
 		)
 	)
+	(global_label "RX TMCU"
+		(shape input)
+		(at 448.31 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e2e6d68-3abe-4eba-a29c-1b0900268e9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 436.8582 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "sda"
 		(shape input)
 		(at 251.46 210.82 180)
@@ -14600,6 +14676,28 @@
 			)
 		)
 	)
+	(global_label "RX TMCU"
+		(shape input)
+		(at 251.46 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80256f91-dfb1-49d3-a108-e14807023454")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.0082 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESETN TMCU"
 		(shape input)
 		(at 505.46 200.66 0)
@@ -14635,6 +14733,28 @@
 		(uuid "85020df6-b59d-4e3a-ab66-3e9d3f160dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.29 282.0223 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX TMCU"
+		(shape input)
+		(at 448.31 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "877ddf77-2611-4b42-9874-c64a39526b2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 437.1606 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14882,6 +15002,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX TMCU"
+		(shape input)
+		(at 251.46 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c95f5945-5575-4b03-97a1-517cbd3d506d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.3106 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19364,6 +19506,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 494.03 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a43e6b-ec20-4494-83f2-de7e4630a8c3")
+		(property "Reference" "#PWR060"
+			(at 500.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 497.84 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 494.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 494.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 494.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f70cbe-f2cb-48c3-865b-cc454231737f")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 166.37 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20881,6 +21090,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 494.03 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62666ae7-c00b-4c06-8a9a-b229bf43864b")
+		(property "Reference" "#PWR061"
+			(at 490.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 497.84 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 494.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 494.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 494.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed6410e7-2acb-4061-bd5a-1a307e85af5d")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 153.67 67.31 0)
 		(unit 1)
@@ -20945,6 +21221,73 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 440.69 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e8c707-5c04-4142-95d3-7c14afbf988b")
+		(property "Reference" "#PWR062"
+			(at 444.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 436.88 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 440.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 440.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa7a2655-2d66-4ccb-9020-daa73a6d8c9d")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -21614,102 +21957,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Pressure:LPS22HB")
-		(at 452.12 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bfe72d0-9199-48ce-a7e5-1a934e256a4a")
-		(property "Reference" "U5"
-			(at 441.96 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LPS22HB"
-			(at 441.96 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
-			(at 453.39 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22hb.pdf"
-			(at 453.39 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEMS nano pressure sensor, 260-1260 hPa, absolute digital output baromeeter, 24 bit, SPI, I2C, 0.0075 hPa noise rms, ST_HLGA-10L"
-			(at 452.12 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c42a9b9f-30c4-4b34-870b-27aa62a0c10b")
-		)
-		(pin "10"
-			(uuid "02889e9d-5298-4dcb-b02e-797d59c00574")
-		)
-		(pin "3"
-			(uuid "1931d138-e2fb-4fcd-9913-503bbe78e8c1")
-		)
-		(pin "8"
-			(uuid "96bfe3aa-bc91-4edd-8265-c6b921662cc3")
-		)
-		(pin "9"
-			(uuid "921063b5-c6ba-4a5d-b631-e62d4cd64308")
-		)
-		(pin "4"
-			(uuid "48c4b613-b382-4431-9e74-37346db92a47")
-		)
-		(pin "5"
-			(uuid "e9809b95-2d6c-44e8-8950-32160362bf1a")
-		)
-		(pin "2"
-			(uuid "abf76486-dbc5-405f-92d9-1503e300a737")
-		)
-		(pin "6"
-			(uuid "ee4345f8-fd2f-4214-835e-e12103d3cdb6")
-		)
-		(pin "7"
-			(uuid "21b1f5d0-119b-4a6b-8ac4-4ce21c02bd06")
-		)
-		(instances
-			(project ""
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -27034,6 +27281,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Pressure:LPS22HB")
+		(at 480.06 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24bbd96-2089-4b8b-bbda-0542cb00a97e")
+		(property "Reference" "U5"
+			(at 468.63 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LPS22HB"
+			(at 468.63 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_LGA:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+			(at 481.33 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22hb.pdf"
+			(at 481.33 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEMS nano pressure sensor, 260-1260 hPa, absolute digital output baromeeter, 24 bit, SPI, I2C, 0.0075 hPa noise rms, ST_HLGA-10L"
+			(at 480.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20dd9f5f-ed8d-4c52-8c78-b8838e8fb18b")
+		)
+		(pin "5"
+			(uuid "d756f2ed-9a5b-4af2-b023-4ae6c5a389cd")
+		)
+		(pin "2"
+			(uuid "8eba6437-8183-4160-9c06-76f1a5bef1b4")
+		)
+		(pin "8"
+			(uuid "0164f47f-274e-425c-97eb-e082afae43ce")
+		)
+		(pin "9"
+			(uuid "d940bae7-1466-46d2-bfa6-1c561b345556")
+		)
+		(pin "10"
+			(uuid "80475c04-84f0-4a1b-94e6-2f4fb3a8a19e")
+		)
+		(pin "6"
+			(uuid "fef0b4b3-2055-41c4-a8ce-9b1dd176d291")
+		)
+		(pin "4"
+			(uuid "2d265aeb-7a56-4f2c-82d2-af0c15237ad6")
+		)
+		(pin "7"
+			(uuid "370f55d7-259f-4ad4-921f-71e95793c34e")
+		)
+		(pin "1"
+			(uuid "ce35aba1-4821-4076-aa91-c1240be9fdf7")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 381 152.4 90)
 		(unit 1)
@@ -28535,7 +28878,7 @@
 	)
 	(symbol
 		(lib_id "L96-M33:L96-M33")
-		(at 434.34 285.75 0)
+		(at 471.17 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28544,7 +28887,7 @@
 		(fields_autoplaced yes)
 		(uuid "db56f47c-7cfb-4859-87fb-b191a497e82c")
 		(property "Reference" "U6"
-			(at 434.34 257.81 0)
+			(at 471.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28552,7 +28895,7 @@
 			)
 		)
 		(property "Value" "GPS"
-			(at 434.34 260.35 0)
+			(at 471.17 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28560,7 +28903,7 @@
 			)
 		)
 		(property "Footprint" "L96-M33:XCVR_L96-M33"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28570,7 +28913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28579,7 +28922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28588,7 +28931,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "2958-L96-M33TR-ND"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28598,7 +28941,7 @@
 			)
 		)
 		(property "MF" "Quectel"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28608,7 +28951,7 @@
 			)
 		)
 		(property "DESCRIPTION" "L96 is a concurrent multi-GNSS receiver module with embedded chip antenna. With 33 tracking channels, 99 acquisition channels and 210 PRN channels, L96 supports concurrent reception of up to three GNSS systems _GPS+GLONASS+Galileo_"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28618,7 +28961,7 @@
 			)
 		)
 		(property "PACKAGE" "SOIC-8 Quectel Wireless Solutions Co., Ltd"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28628,7 +28971,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28638,7 +28981,7 @@
 			)
 		)
 		(property "Package" "SMD-31 Quectel"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28648,7 +28991,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/L96-M33/Quectel/view-part/?ref=eda"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28658,7 +29001,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L96-M33/Quectel/view-part/?ref=snap"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28668,7 +29011,7 @@
 			)
 		)
 		(property "MP" "L96-M33"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28678,7 +29021,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28688,7 +29031,7 @@
 			)
 		)
 		(property "Description_1" "L96 is a concurrent multi-GNSS receiver module with embedded chip antenna. With 33 tracking channels, 99 acquisition channels and 210 PRN channels, L96 supports concurrent reception of up to three GNSS systems (GPS+GLONASS+Galileo)"
-			(at 434.34 285.75 0)
+			(at 471.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29394,6 +29737,74 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 444.5 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe10a8c-e834-4e60-87ba-a32b3948ea71")
+		(property "Reference" "R11"
+			(at 444.5 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 444.5 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 444.5 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 444.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659a88c9-9866-40ed-8d6f-331a4251d0da")
+		)
+		(pin "2"
+			(uuid "20d8957b-2ac1-4c7d-96d1-7afb55622ec2")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
