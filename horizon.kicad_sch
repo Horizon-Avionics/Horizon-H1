@@ -11214,6 +11214,16 @@
 		)
 		(uuid "605bc033-eb1a-416d-8e31-146e2825ac5a")
 	)
+	(text "INT from TLM"
+		(exclude_from_sim no)
+		(at 307.086 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63e729e0-090c-404b-ac17-62b19d195bc3")
+	)
 	(text "GPS → MCU RX"
 		(exclude_from_sim no)
 		(at 94.488 152.654 0)
@@ -11254,15 +11264,15 @@
 		)
 		(uuid "b1f1a05b-009c-4c94-8321-30506055fc41")
 	)
-	(text "For NAND and SD"
+	(text "INT from NAV"
 		(exclude_from_sim no)
-		(at 293.37 160.274 0)
+		(at 307.848 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cc053727-5e56-471f-b6aa-304a42fe5c05")
+		(uuid "dc778c0e-4c99-4268-aa7a-44f92ddc29cd")
 	)
 	(text "TIE IT TO LOW to internal occilator"
 		(exclude_from_sim no)
@@ -14558,6 +14568,28 @@
 			)
 		)
 	)
+	(global_label "PTD4"
+		(shape input)
+		(at 322.58 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33b802aa-efeb-4bea-9234-70abca67f09a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.8777 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK MMCU"
 		(shape input)
 		(at 161.29 254 90)
@@ -14756,7 +14788,7 @@
 			)
 		)
 	)
-	(global_label "scl"
+	(global_label "I2C0_SDA"
 		(shape input)
 		(at 113.03 198.12 180)
 		(fields_autoplaced yes)
@@ -14768,7 +14800,7 @@
 		)
 		(uuid "52d7fa68-ccfe-4c94-b3b0-89c118de65a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2629 198.12 0)
+			(at 101.2153 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14844,7 +14876,7 @@
 			)
 		)
 	)
-	(global_label "sda"
+	(global_label "I2C0_SCL"
 		(shape input)
 		(at 113.03 200.66 180)
 		(fields_autoplaced yes)
@@ -14856,7 +14888,7 @@
 		)
 		(uuid "5f9a65e2-f7b7-4c7b-9e73-13c31f456caf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.7187 200.66 0)
+			(at 101.2758 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14954,6 +14986,28 @@
 			)
 		)
 	)
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 322.58 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cacfc1d-d8df-4298-9c99-d14ac0ae5f26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.8258 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_CLOCK TMCU"
 		(shape input)
 		(at 444.5 193.04 180)
@@ -14967,6 +15021,28 @@
 		(uuid "6e8bd070-fe27-4120-9ae3-d501835ce45c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 425.3072 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PTA12"
+		(shape input)
+		(at 322.58 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "738069c4-8917-4a99-8e7d-30ee61e11426")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.8496 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15262,7 +15338,7 @@
 			)
 		)
 	)
-	(global_label "scl"
+	(global_label "I2C0_SDA"
 		(shape input)
 		(at 17.78 194.31 180)
 		(fields_autoplaced yes)
@@ -15274,7 +15350,7 @@
 		)
 		(uuid "97514c00-a31a-485d-8cf0-109d07be6843")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.0129 194.31 0)
+			(at 5.9653 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,6 +15756,28 @@
 			)
 		)
 	)
+	(global_label "I2C0_SDA"
+		(shape input)
+		(at 322.58 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8eb4aa9-f65a-41f9-a063-5b3a02bbacf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.7653 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "bat"
 		(shape input)
 		(at 193.04 24.13 180)
@@ -15746,7 +15844,7 @@
 			)
 		)
 	)
-	(global_label "sda"
+	(global_label "I2C0_SCL"
 		(shape input)
 		(at 17.78 196.85 180)
 		(fields_autoplaced yes)
@@ -15758,7 +15856,7 @@
 		)
 		(uuid "f418ce86-dd25-4638-9cf3-d9376ba7a4d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.4687 196.85 0)
+			(at 6.0258 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
