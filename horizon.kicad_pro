@@ -620,6 +620,18 @@
     [
       "78d9c2f3-deae-418a-8c21-4820ea8fc57f",
       "Root"
+    ],
+    [
+      "097de61a-b781-409b-916d-2a6fba459f37",
+      "input usb"
+    ],
+    [
+      "9f395e7d-f0e3-417c-8bdc-8f8d3cf70e8c",
+      "power stuff"
+    ],
+    [
+      "8017925a-458a-4a0a-8733-ba805a96612a",
+      "sensors"
     ]
   ],
   "text_variables": {}
