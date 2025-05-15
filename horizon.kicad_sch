@@ -3798,7 +3798,7 @@
 		)
 		(uuid "82965214-89a8-4853-9fc3-4cbdbed4f25f")
 	)
-	(text "For NAND and SD"
+	(text "Clock pin For NAND and SD"
 		(exclude_from_sim no)
 		(at 211.582 122.682 0)
 		(effects

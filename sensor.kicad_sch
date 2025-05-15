@@ -6193,7 +6193,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_SD MMCU"
+	(global_label "NAND_MOSI MMCU"
 		(shape input)
 		(at 227.33 138.43 180)
 		(fields_autoplaced yes)
@@ -6205,7 +6205,7 @@
 		)
 		(uuid "7851ed42-5e75-434a-ab3e-19a1d3e745b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8306 138.43 0)
+			(at 207.2905 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6259,7 @@
 			)
 		)
 	)
-	(global_label "MISO_SD MMCU"
+	(global_label "NAND_MISO MMCU"
 		(shape input)
 		(at 227.33 148.59 180)
 		(fields_autoplaced yes)
@@ -6271,7 +6271,7 @@
 		)
 		(uuid "95526b65-f4ee-4997-974c-8e4f4c983dc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8306 148.59 0)
+			(at 207.2905 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6391,7 @@
 			)
 		)
 	)
-	(global_label "SCK_SD MMCU"
+	(global_label "SPI0_SCK MMCU"
 		(shape input)
 		(at 227.33 143.51 180)
 		(fields_autoplaced yes)
@@ -6403,7 +6403,7 @@
 		)
 		(uuid "c2f768fd-7369-4cd9-ba54-8b5d0520e3a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.6773 143.51 0)
+			(at 208.863 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
