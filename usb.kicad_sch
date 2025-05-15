@@ -2130,7 +2130,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Rotary_1x3_MP"
+		(symbol "Switch:SW_Rotary_1x4_MP"
 			(pin_names
 				(hide yes)
 			)
@@ -2138,14 +2138,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_Rotary_1x3_MP"
+			(property "Value" "SW_Rotary_1x4_MP"
 				(at 8.89 -6.35 0)
 				(effects
 					(font
@@ -2154,7 +2154,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -8.89 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2163,7 +2163,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -11.43 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary switch 1x3, SP3T with mount point"
+			(property "Description" "Rotary switch 1x4, SP4T with mount point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2180,7 +2180,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Rotary switch 1x3 SP3T"
+			(property "ki_keywords" "Rotary switch 1x4 SP4T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2189,7 +2189,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x3_MP_0_1"
+			(symbol "SW_Rotary_1x4_MP_0_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -3.81 0)
@@ -2215,7 +2215,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.5908 0.254) (xy 1.9304 2.286)
+						(xy -2.7432 0.508) (xy 0.2032 3.9624)
 					)
 					(stroke
 						(width 0)
@@ -2226,8 +2226,8 @@
 					)
 				)
 				(arc
-					(start 0 0.635)
-					(mid 0.0861 -0.5113)
+					(start -0.9526 2.2225)
+					(mid 0.154 0.449)
 					(end -0.3176 -1.5875)
 					(stroke
 						(width 0)
@@ -2273,6 +2273,29 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.3174 -1.5875) (xy 0.3174 -1.5875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 2.54 2.54)
 					(radius 0.635)
@@ -2298,6 +2321,18 @@
 				(circle
 					(center 3.175 0)
 					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2343,10 +2378,11 @@
 					)
 				)
 			)
-			(symbol "SW_Rotary_1x3_MP_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+			(symbol "SW_Rotary_1x4_MP_1_1"
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 6.35) (xy -5.08 6.35)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2365,7 +2401,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2392,7 +2428,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2410,7 +2446,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2428,7 +2464,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2438,6 +2474,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2718,6 +2772,12 @@
 		(uuid "6404db80-e2c5-47ad-bf7d-af3307a21c7c")
 	)
 	(junction
+		(at 162.56 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c34324-f3c6-461f-8626-568929e007e5")
+	)
+	(junction
 		(at 109.22 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2728,12 +2788,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "914972cb-338f-497e-8514-ed14fdf50666")
-	)
-	(junction
-		(at 162.56 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96be3994-9f05-4de9-8110-7899e74a5243")
 	)
 	(junction
 		(at 81.28 66.04)
@@ -2782,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "0408a245-f5e6-419b-8499-45563551cbf2")
+	)
+	(wire
+		(pts
+			(xy 210.82 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0637b615-5ef6-4940-9ade-22054f0415da")
 	)
 	(wire
 		(pts
@@ -2915,6 +2979,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 44.45) (xy 185.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ebe99-0d2a-4024-905d-88eccca3d01d")
+	)
+	(wire
+		(pts
 			(xy 81.28 52.07) (xy 85.09 52.07)
 		)
 		(stroke
@@ -2975,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 59.69) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87963a16-653e-46f3-83ee-54700a806743")
+	)
+	(wire
+		(pts
 			(xy 105.41 52.07) (xy 116.84 52.07)
 		)
 		(stroke
@@ -2995,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 58.42) (xy 167.64 59.69)
+			(xy 166.37 59.69) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3095,6 +3179,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce59f48c-bcbd-41d0-b8d0-724af22595a2")
+	)
+	(wire
+		(pts
 			(xy 158.75 53.34) (xy 162.56 49.53)
 		)
 		(stroke
@@ -3112,6 +3206,16 @@
 			(type default)
 		)
 		(uuid "d48cd0a6-134a-48c4-81f2-195cb3a161cd")
+	)
+	(wire
+		(pts
+			(xy 210.82 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daee10f1-04e1-46b6-a6d3-6a766c0065c2")
 	)
 	(wire
 		(pts
@@ -3155,6 +3259,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 49.53) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfa80ec-df62-4079-867a-031c5a0e875b")
+	)
+	(wire
+		(pts
 			(xy 81.28 71.12) (xy 81.28 72.39)
 		)
 		(stroke
@@ -3163,53 +3277,19 @@
 		)
 		(uuid "f2c14560-30c5-4e13-9f87-b71413180f02")
 	)
-	(global_label "D- MMCU"
-		(shape input)
-		(at 182.88 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 210.82 60.96) (xy 190.5 60.96)
 		)
-		(uuid "0a90be65-0bdf-44b1-8faa-e9feb9508575")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1785 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-	)
-	(global_label "D+ MMCU"
-		(shape input)
-		(at 177.8 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f6fdcef-189c-4875-af4a-9150c32c9416")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.0985 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "f897dc35-113b-47d8-a6b1-41d2d5e9cb3b")
 	)
 	(global_label "D+ DMCU-1"
 		(shape input)
-		(at 177.8 49.53 0)
+		(at 210.82 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3217,53 +3297,9 @@
 			)
 			(justify left)
 		)
-		(uuid "645e6066-c086-4bd8-96e5-d4b76f81aaa0")
+		(uuid "441671a0-b476-4c5c-b244-19cbe52ecc29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.699 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D- DMCU-1"
-		(shape input)
-		(at 182.88 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "addfccdb-e370-4127-9058-6a390905a32a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.779 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+ DMCU-2"
-		(shape input)
-		(at 177.8 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb0ae596-eb84-4af3-998e-95fd3897eccb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.699 52.07 0)
+			(at 225.719 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3311,7 @@
 	)
 	(global_label "D- DMCU-2"
 		(shape input)
-		(at 182.88 62.23 0)
+		(at 210.82 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3283,15 +3319,170 @@
 			)
 			(justify left)
 		)
-		(uuid "e87e1040-9de5-41ec-be57-3d315f29626b")
+		(uuid "6dca4a10-f3e4-47db-b70b-7e076e304f11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.779 62.23 0)
+			(at 225.719 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "D+ MMCU"
+		(shape input)
+		(at 210.82 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95959c50-a211-46aa-b669-6bf7e9139d5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.1185 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- MMCU"
+		(shape input)
+		(at 210.82 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a15359cf-1097-49f2-9859-511da598e0d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.1185 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- DMCU-1"
+		(shape input)
+		(at 210.82 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3be220f-1dbb-41a5-bf26-c23ff9f89d9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.719 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+ DMCU-2"
+		(shape input)
+		(at 210.82 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f10084e4-a905-4917-a382-3b059ea227e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.719 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c51756-0557-4d75-a71f-b3c7034bf163")
+		(property "Reference" "R17"
+			(at 196.088 52.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 196.088 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "147812c2-0b9c-4ba8-b3ce-69c340fbae59")
+		)
+		(pin "1"
+			(uuid "80fd6f6d-85c9-49c0-86e2-948ac05dba4b")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R17")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3630,83 +3821,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Rotary_1x3_MP")
-		(at 170.18 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44ccc9a5-3b17-4c19-be5e-81638c40ca0b")
-		(property "Reference" "SW3"
-			(at 170.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Rotary_1x3_MP"
-			(at 170.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch 1x3, SP3T with mount point"
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3fc0f15-b0f4-4a41-a1d0-fa76f4413448")
-		)
-		(pin "3"
-			(uuid "64038ea6-d4d5-46ac-a94d-e6d3ee0487cc")
-		)
-		(pin "2"
-			(uuid "3026eaa7-ecc8-437b-8d7e-8bfe7c2c7a05")
-		)
-		(pin "MP"
-			(uuid "8b253a36-79fd-4b2e-9a16-b840628a644c")
-		)
-		(pin "4"
-			(uuid "7eb2e766-de42-4c51-8085-d26fa62585f1")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 58.42 90)
 		(unit 1)
@@ -3840,6 +3954,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Rotary_1x4_MP")
+		(at 175.26 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "579c6477-c62c-4a98-bd17-22e1c7dbdabf")
+		(property "Reference" "SW2"
+			(at 175.26 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x4_MP"
+			(at 176.022 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x4, SP4T with mount point"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "d6430573-c13c-4bf3-b400-e08aaec256c6")
+		)
+		(pin "1"
+			(uuid "7772a005-f616-4052-98b0-ac48c047c22f")
+		)
+		(pin "2"
+			(uuid "823c1209-f967-466a-8473-856f7e92fc85")
+		)
+		(pin "3"
+			(uuid "5ea4d5a3-3cfe-43ca-a640-7b998f787f91")
+		)
+		(pin "4"
+			(uuid "d829ad2a-c80a-4dd0-9b80-362666af7670")
+		)
+		(pin "5"
+			(uuid "eb24298e-1d38-4acf-b1ad-7a9428ebd0c0")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 105.41 40.64 270)
 		(unit 1)
@@ -3919,82 +4112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Rotary_1x3_MP")
-		(at 175.26 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64339fa6-a1cc-4ea6-b31e-21763d7e4d9e")
-		(property "Reference" "SW4"
-			(at 173.482 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Rotary_1x3_MP"
-			(at 173.99 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch 1x3, SP3T with mount point"
-			(at 175.26 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3704da-0dc6-401a-b659-0b85013b8b5c")
-		)
-		(pin "3"
-			(uuid "e0497fff-2c38-4071-b2e3-6ee6a570178e")
-		)
-		(pin "2"
-			(uuid "bf470c4b-be47-4df0-af1f-08d2aadab4b6")
-		)
-		(pin "MP"
-			(uuid "0a3c2abe-2461-4332-a483-9fe5de1eed6f")
-		)
-		(pin "4"
-			(uuid "8056e6e9-36a2-4a4c-895e-f92494bf9136")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 93.98 0)
 		(unit 1)
@@ -4055,6 +4172,140 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ffc6d5b-d84e-4b4f-9144-0f3b5a0a029d")
+		(property "Reference" "R16"
+			(at 191.262 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 191.262 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9ca0f6a-0e91-4d46-892a-5f60a86924d1")
+		)
+		(pin "1"
+			(uuid "f5c1436b-3408-49b8-8024-130cef41f8f6")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "825de610-db5e-4fdf-b53b-fd230e8bdcdd")
+		(property "Reference" "R15"
+			(at 195.072 39.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 195.072 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26a31c16-cdca-4e18-bb18-d619553860ab")
+		)
+		(pin "1"
+			(uuid "da5d0a29-aad9-4f01-81fd-54e53beb05da")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4124,6 +4375,73 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f91eba7-6a80-49d1-b499-c19c72bd3b64")
+		(property "Reference" "R13"
+			(at 185.674 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 185.674 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45538900-a540-4695-89f6-62bd6f6ecfa8")
+		)
+		(pin "1"
+			(uuid "6173f798-07ae-4087-aaed-ca88877213c5")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4336,6 +4654,73 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
 					(reference "FL6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b122dbcd-b97d-478b-80c5-d8b740545de9")
+		(property "Reference" "R14"
+			(at 190.5 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 190.5 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f260315-3b2c-4c80-bc93-718be9b51ade")
+		)
+		(pin "1"
+			(uuid "f2cc0734-cf20-455c-b93c-d9d3ccf36523")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4662,6 +5047,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 186.69 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb43d35-465a-4520-8306-e0928d6fe613")
+		(property "Reference" "R18"
+			(at 200.66 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 200.66 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9026466-00ee-4afe-9622-23b2ba21ab29")
+		)
+		(pin "1"
+			(uuid "c12a2e4f-ab5c-4b40-9dbb-5d12fcead9a0")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 44.45 180)
 		(unit 1)
@@ -4858,6 +5310,86 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Rotary_1x4_MP")
+		(at 170.18 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabe606e-98f1-4561-b345-627d6c15411c")
+		(property "Reference" "SW1"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x4_MP"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x4, SP4T with mount point"
+			(at 170.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "1a5ae487-2510-42c4-9700-18fa473e6a8c")
+		)
+		(pin "1"
+			(uuid "61ec285f-4e81-40b7-9aad-e9b2e05da51b")
+		)
+		(pin "2"
+			(uuid "63b6c591-317f-40e1-ae63-0e2123b2c4a4")
+		)
+		(pin "3"
+			(uuid "d8b03fbd-1aea-4789-ae2c-f72020660d98")
+		)
+		(pin "4"
+			(uuid "9cb28a44-9365-4342-bb22-39f3a8554dc3")
+		)
+		(pin "5"
+			(uuid "df86e4e1-7f16-45b8-a5a1-7585d335bfb7")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/097de61a-b781-409b-916d-2a6fba459f37"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
