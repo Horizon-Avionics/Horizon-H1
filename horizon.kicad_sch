@@ -4514,6 +4514,28 @@
 			)
 		)
 	)
+	(global_label "DIR1"
+		(shape input)
+		(at 33.02 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0815aed7-9b81-4dc1-ae94-3ca177c2de90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6805 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK DMCU-2"
 		(shape input)
 		(at 128.27 143.51 180)
@@ -5341,6 +5363,28 @@
 		(uuid "d370be94-331d-4a16-b264-fb4008955e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.7015 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 33.02 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da13debf-545a-4ff1-b406-00871824a2f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.6525 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
