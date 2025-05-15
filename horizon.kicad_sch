@@ -3828,6 +3828,16 @@
 		)
 		(uuid "a2307b95-a5e8-487f-9484-a4f30e0d8b07")
 	)
+	(text "Outputs a signal when data is ready"
+		(exclude_from_sim no)
+		(at 93.472 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b03f29a0-8e5d-4a26-a148-0b375c45942c")
+	)
 	(text "Set low to talk to BARO"
 		(exclude_from_sim no)
 		(at 176.276 69.85 0)
@@ -3858,7 +3868,7 @@
 		)
 		(uuid "dfa143a3-f6c3-411d-8517-ed34728d44fa")
 	)
-	(text "IIC Bus lines for Sensors \n(not including NAND, SD-CARD)"
+	(text "SPI Bus lines for Sensors \n(not including NAND, SD-CARD)"
 		(exclude_from_sim no)
 		(at 99.314 94.234 0)
 		(effects
@@ -5407,6 +5417,28 @@
 		(uuid "e6692a71-817e-4e77-aa1c-753045673c8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.3472 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Baro_int TMCU"
+		(shape input)
+		(at 128.27 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e87ea92a-5f32-444f-ad51-d7dd4b7c10ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.4964 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
