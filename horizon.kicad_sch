@@ -3575,9 +3575,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SERCOM Stuff For Firmware INTCOMM"
+	(text "SERCOM Stuff For Firmware \nINTCOMM"
 		(exclude_from_sim no)
-		(at 192.278 101.854 0)
+		(at 197.104 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,7 +3587,7 @@
 	)
 	(text "For NAND and SD"
 		(exclude_from_sim no)
-		(at 193.548 82.55 0)
+		(at 193.802 84.074 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3635,9 +3635,9 @@
 		)
 		(uuid "9b17987b-dede-4869-aaba-bab2a0243a41")
 	)
-	(text "SERCOM Stuff For Firmware INTCOMM"
+	(text "SERCOM Stuff For Firmware \nINTCOMM"
 		(exclude_from_sim no)
-		(at 98.298 124.968 0)
+		(at 103.124 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3674,6 +3674,26 @@
 			)
 		)
 		(uuid "dc778c0e-4c99-4268-aa7a-44f92ddc29cd")
+	)
+	(text "USB Data Lines for \nProgramming"
+		(exclude_from_sim no)
+		(at 104.14 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfa143a3-f6c3-411d-8517-ed34728d44fa")
+	)
+	(text "IIC Bus lines for Sensors \n(not including NAND, SD-CARD)"
+		(exclude_from_sim no)
+		(at 99.314 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e373cd1e-6066-4859-a012-0ec8ed90a453")
 	)
 	(junction
 		(at 148.59 52.07)
@@ -7379,6 +7399,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 280.67 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63aeba5b-aeb6-4bb5-b0ee-b064928f3bd8")
+		(property "Reference" "#PWR030"
+			(at 276.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 284.48 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 280.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd81b645-fcb6-43ad-9eb3-b978f43336e9")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
 		(at 41.91 168.91 0)
 		(mirror y)
@@ -8874,7 +8961,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 179.07 118.11 0)
+			(at 194.056 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9625,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 185.42 115.57 0)
+			(at 200.66 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
