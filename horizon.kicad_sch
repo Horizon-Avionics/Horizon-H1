@@ -5046,6 +5046,28 @@
 			)
 		)
 	)
+	(global_label "BUZZER"
+		(shape input)
+		(at 222.25 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56d688ab-d3c4-4020-bad7-10be0bb8847b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8263 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C0_SCL"
 		(shape input)
 		(at 128.27 125.73 180)
@@ -5750,7 +5772,7 @@
 			)
 		)
 	)
-	(global_label "Baro_int TMCU"
+	(global_label "CS TMCU"
 		(shape input)
 		(at 128.27 87.63 180)
 		(fields_autoplaced yes)
@@ -5762,7 +5784,7 @@
 		)
 		(uuid "e87ea92a-5f32-444f-ad51-d7dd4b7c10ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.4964 87.63 0)
+			(at 116.8182 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
