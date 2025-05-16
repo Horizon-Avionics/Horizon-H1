@@ -25749,6 +25749,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "imported.pretty\\L96-M33\\L96-M33.kicad_sym"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "73c74f18-76f8-4671-9db6-78843e720911")
 		)
