@@ -2820,28 +2820,12 @@
 		(uuid "f003cbea-8a5c-4785-8535-a9c4be3230dc")
 	)
 	(no_connect
-		(at 167.64 63.5)
-		(uuid "1e8e05ba-1b70-444d-b451-002522feabc9")
-	)
-	(no_connect
 		(at 81.28 82.55)
 		(uuid "2828da35-0d15-41a6-8f79-ce5fa288048c")
 	)
 	(no_connect
-		(at 177.8 52.07)
-		(uuid "2cfbd81a-0d35-442c-8dca-ea8e2a27af82")
-	)
-	(no_connect
 		(at 81.28 80.01)
 		(uuid "993060b3-cc77-4b48-a79c-7d8426900b34")
-	)
-	(no_connect
-		(at 182.88 63.5)
-		(uuid "ad4eb9f9-e1ff-485a-b61a-09aa4a0a7e29")
-	)
-	(no_connect
-		(at 162.56 52.07)
-		(uuid "d6e0c6c8-0b58-4428-9c07-aecb83e56db3")
 	)
 	(wire
 		(pts

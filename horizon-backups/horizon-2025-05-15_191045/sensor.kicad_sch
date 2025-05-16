@@ -7645,32 +7645,8 @@
 		(uuid "fa6e649e-415b-4efe-824a-888d501ad6e8")
 	)
 	(no_connect
-		(at 76.2 154.94)
-		(uuid "1b2c26b4-356a-468d-90dd-60db293abd19")
-	)
-	(no_connect
 		(at 93.98 44.45)
 		(uuid "1cae9b01-4c35-42fe-8188-00990bda8241")
-	)
-	(no_connect
-		(at 262.89 38.1)
-		(uuid "2530d230-5cfb-4dd4-b037-2cb7fca8f78a")
-	)
-	(no_connect
-		(at 106.68 157.48)
-		(uuid "28b2b011-2b66-46fa-919a-9e2f2ea9840a")
-	)
-	(no_connect
-		(at 76.2 144.78)
-		(uuid "3b6c4c26-a73c-46c5-984f-790f7c004267")
-	)
-	(no_connect
-		(at 76.2 160.02)
-		(uuid "55a0caff-ffd2-45a2-aebe-b47478c41724")
-	)
-	(no_connect
-		(at 76.2 167.64)
-		(uuid "597b27e7-7edb-465e-b50f-12310b53662d")
 	)
 	(no_connect
 		(at 227.33 151.13)
@@ -7681,24 +7657,8 @@
 		(uuid "5ea399dc-3061-4a86-a18a-987c9401e08c")
 	)
 	(no_connect
-		(at 106.68 170.18)
-		(uuid "5f61ee44-27fc-4b93-8832-96b4c4625586")
-	)
-	(no_connect
-		(at 325.12 52.07)
-		(uuid "66e372a3-2f83-4d7f-bfdd-a454d0414ca8")
-	)
-	(no_connect
 		(at 93.98 54.61)
 		(uuid "6f3e59fc-4c2c-412e-ac4e-d0097d17b8f4")
-	)
-	(no_connect
-		(at 201.93 58.42)
-		(uuid "7a459cbf-3d87-4162-84e1-ee6254bf7844")
-	)
-	(no_connect
-		(at 325.12 49.53)
-		(uuid "8362ab04-93d0-41fc-9ca7-b26fd0c68ba5")
 	)
 	(no_connect
 		(at 227.33 133.35)
@@ -7707,10 +7667,6 @@
 	(no_connect
 		(at 48.26 62.23)
 		(uuid "89c50166-d439-4287-b15d-0f2e29546d4e")
-	)
-	(no_connect
-		(at 33.02 167.64)
-		(uuid "8da27f47-bdfc-4e1a-9e9a-1d22f019fab9")
 	)
 	(no_connect
 		(at 106.68 154.94)
@@ -7729,48 +7685,16 @@
 		(uuid "a4db4373-66df-4276-b6d6-60171602a11b")
 	)
 	(no_connect
-		(at 33.02 170.18)
-		(uuid "a4fc97f7-9772-4dcd-97eb-5cc2ecf3b9c9")
-	)
-	(no_connect
 		(at 48.26 57.15)
 		(uuid "ae39d981-fd96-4122-bc7a-54ac61f11fe9")
-	)
-	(no_connect
-		(at 76.2 142.24)
-		(uuid "b1f2fca8-92db-4459-bd08-e11f708361f2")
 	)
 	(no_connect
 		(at 93.98 62.23)
 		(uuid "b7451547-effa-48d0-8e41-41eac5cd1e2a")
 	)
 	(no_connect
-		(at 76.2 162.56)
-		(uuid "be34472a-d95a-4904-a80e-a1c5ea3670a2")
-	)
-	(no_connect
-		(at 76.2 139.7)
-		(uuid "c066ddd8-720f-4a36-9781-4cedb6adeefd")
-	)
-	(no_connect
-		(at 76.2 157.48)
-		(uuid "c2248ba7-15a4-46c8-bc53-f0326e31ea3f")
-	)
-	(no_connect
 		(at 48.26 54.61)
 		(uuid "d4f60d15-8688-48a3-a687-0af3de61412e")
-	)
-	(no_connect
-		(at 262.89 40.64)
-		(uuid "df0d0b39-87ec-46e1-a32f-7f3a9fa80724")
-	)
-	(no_connect
-		(at 106.68 162.56)
-		(uuid "ea24cd21-5995-4e3d-8a35-706b19293cd2")
-	)
-	(no_connect
-		(at 355.6 41.91)
-		(uuid "f8f11427-2c97-4047-be2b-8750eb0c6e3a")
 	)
 	(bus_entry
 		(at 248.92 107.95)
@@ -9367,7 +9291,7 @@
 			)
 		)
 	)
-	(global_label "RS_GPS TMCU"
+	(global_label "ANY GPIO PIN"
 		(shape input)
 		(at 40.64 41.91 180)
 		(fields_autoplaced yes)
@@ -9379,7 +9303,7 @@
 		)
 		(uuid "676b0568-ddd1-44fd-9057-bfdf2efd9a6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.4711 41.91 0)
+			(at 24.5313 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
