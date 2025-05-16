@@ -25611,7 +25611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L96-M33:XCVR_L96-M33"
+		(property "Footprint" "RF_GPS:Quectel_L96"
 			(at 71.12 54.61 0)
 			(effects
 				(font
@@ -25750,6 +25750,15 @@
 			)
 		)
 		(property "Sim.Library" "imported.pretty\\L96-M33\\L96-M33.kicad_sym"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "<unknown>"
 			(at 71.12 54.61 0)
 			(effects
 				(font
