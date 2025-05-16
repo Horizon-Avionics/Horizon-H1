@@ -4716,6 +4716,28 @@
 			)
 		)
 	)
+	(global_label "CAM_TX"
+		(shape input)
+		(at 222.25 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ce7b856-aa31-4a11-bb47-86c79c6fb23c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.3101 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_CLOCK TMCU"
 		(shape input)
 		(at 128.27 100.33 180)
@@ -4826,6 +4848,28 @@
 			)
 		)
 	)
+	(global_label "mosfet4_signal"
+		(shape input)
+		(at 33.02 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36881e3b-6db9-4d9c-bbc6-d3a6e241fcd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7022 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK MMCU"
 		(shape input)
 		(at 152.4 175.26 0)
@@ -4861,6 +4905,28 @@
 		(uuid "3bbb3ca4-ec75-46c3-b3e6-628479b60006")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.371 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet2_signal"
+		(shape input)
+		(at 33.02 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "417e9684-b631-4ef9-88cd-3ec12488574b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7022 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,6 +5464,28 @@
 			)
 		)
 	)
+	(global_label "CAM_RX"
+		(shape input)
+		(at 222.25 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3304368-28bf-4789-84ed-f46450eb0a44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.0077 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERVO5"
 		(shape input)
 		(at 33.02 73.66 180)
@@ -5530,6 +5618,28 @@
 			)
 		)
 	)
+	(global_label "mosfet3_signal"
+		(shape input)
+		(at 33.02 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf60a5ee-2368-414b-a84b-b5c1620673ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7022 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX TMCU"
 		(shape input)
 		(at 128.27 77.47 180)
@@ -5565,6 +5675,28 @@
 		(uuid "d370be94-331d-4a16-b264-fb4008955e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.7015 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet1_signal"
+		(shape input)
+		(at 33.02 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5784e4c-159a-4472-8722-8f6b45e2d146")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7022 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,6 +5944,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet5_signal"
+		(shape input)
+		(at 33.02 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fea045af-7478-4e8c-8c98-a966fd11dce3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7022 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
