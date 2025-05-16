@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
 			(at 175.26 71.12 0)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 		(dnp no)
 		(uuid "aa3616e8-4720-48fe-9555-d095d0a964ae")
 		(property "Reference" "FL6"
-			(at 153.924 35.814 0)
+			(at 148.844 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4620,7 @@
 			)
 		)
 		(property "Value" "Choke_CommonMode_PulseElectronics_PH9455x105NL"
-			(at 153.924 38.354 0)
+			(at 148.844 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
 			(at 170.18 59.69 0)
 			(effects
 				(font
