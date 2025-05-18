@@ -9489,10 +9489,6 @@
 		(uuid "55a0caff-ffd2-45a2-aebe-b47478c41724")
 	)
 	(no_connect
-		(at 76.2 167.64)
-		(uuid "597b27e7-7edb-465e-b50f-12310b53662d")
-	)
-	(no_connect
 		(at 227.33 151.13)
 		(uuid "5dcc71bc-f797-454a-a6f3-2c9f0e63776f")
 	)
@@ -11771,6 +11767,28 @@
 			)
 		)
 	)
+	(global_label "SPI_CLOCK TMCU"
+		(shape input)
+		(at 76.2 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55d1d657-89f0-44be-84d7-01f078794ced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MISO TMCU"
 		(shape input)
 		(at 76.2 170.18 180)
@@ -12075,6 +12093,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_CS"
+		(shape input)
+		(at 76.2 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e0c3650-d80b-433a-ba82-0c1c4238f154")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.4091 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -17128,75 +17168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 72.39 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "462c5de7-f402-4df5-9b1b-62ada75520f6")
-		(property "Reference" "R57"
-			(at 68.834 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 71.374 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 72.39 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f2b0529-8bb2-4da9-a7e8-355ee4be8a3d")
-		)
-		(pin "2"
-			(uuid "cfea2643-b769-408f-9d9b-952978194d23")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 72.39 90)
 		(unit 1)
@@ -17762,7 +17733,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 69.088 157.734 90)
+			(at 73.152 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29143,73 +29114,6 @@
 			(project ""
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 68.58 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5fd3659-fb35-44d7-8771-c70a53e874dd")
-		(property "Reference" "#PWR0155"
-			(at 72.39 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 64.77 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94d2d176-0e82-4efd-8464-65eef9b3745e")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
