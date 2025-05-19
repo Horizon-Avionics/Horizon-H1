@@ -5600,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 99.06 0)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 152.4 0)
 			(effects
 				(font
@@ -6245,7 +6245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_124019772112A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 43.18 0)
 			(effects
 				(font
