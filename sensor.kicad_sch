@@ -10718,15 +10718,6 @@
 		(at 355.6 41.91)
 		(uuid "f8f11427-2c97-4047-be2b-8750eb0c6e3a")
 	)
-	(bus_entry
-		(at 248.92 107.95)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf59d318-03be-4a0b-bea6-fc3a34e9a75a")
-	)
 	(wire
 		(pts
 			(xy 106.68 45.72) (xy 107.95 45.72)
@@ -24333,7 +24324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IMU:IC_BNO086"
+		(property "Footprint" "BNO086:IC_BNO086"
 			(at 232.41 43.18 0)
 			(effects
 				(font

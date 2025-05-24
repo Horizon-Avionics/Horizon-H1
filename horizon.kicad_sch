@@ -7589,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMCU:QFP50P1200X1200X160-64N"
+		(property "Footprint" "MK20DX256VLH7:QFP50P1200X1200X160-64N"
 			(at 248.92 82.55 0)
 			(effects
 				(font
