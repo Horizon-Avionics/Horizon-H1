@@ -1,4 +1,4 @@
-24746198424766326
+24749693620622061
 A3909
 MSOP10-PAD
 
@@ -64665,6 +64665,13 @@ solder jumper open
 0
 3
 3
+KiCADv6
+BGM220SC12WGA2R
+
+BGM220SC12WGA2R 
+0
+44
+44
 L96-M33
 XCVR_L96-M33
 
@@ -91230,6 +91237,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SMA_CONNECTOR
+LPRS_SMA_CONNECTOR
+
+
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
