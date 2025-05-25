@@ -13056,7 +13056,7 @@
 			)
 		)
 	)
-	(global_label "mosfet4_signalfire"
+	(global_label "mosfet4_signal"
 		(shape input)
 		(at 157.48 280.67 270)
 		(fields_autoplaced yes)
@@ -13068,7 +13068,7 @@
 		)
 		(uuid "1a9711e5-7bb2-403d-a369-9bc6cb5a59a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 301.1931 90)
+			(at 157.48 297.9878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,7 +13122,7 @@
 			)
 		)
 	)
-	(global_label "mosfet2_signalfire"
+	(global_label "mosfet2_signal"
 		(shape input)
 		(at 82.55 279.4 270)
 		(fields_autoplaced yes)
@@ -13134,7 +13134,7 @@
 		)
 		(uuid "2b97f1db-c79e-4bfe-9f1a-9ac8983ce6ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 299.9231 90)
+			(at 82.55 296.7178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,7 +13166,7 @@
 			)
 		)
 	)
-	(global_label "mosfet3_signalfire"
+	(global_label "mosfet3_signal"
 		(shape input)
 		(at 121.92 280.67 270)
 		(fields_autoplaced yes)
@@ -13178,7 +13178,7 @@
 		)
 		(uuid "2da7f210-95c8-4693-81cf-8725480f353f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 301.1931 90)
+			(at 121.92 297.9878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,7 +14354,7 @@
 			)
 		)
 	)
-	(global_label "mosfet1_signalfire"
+	(global_label "mosfet1_signal"
 		(shape input)
 		(at 45.72 280.67 270)
 		(fields_autoplaced yes)
@@ -14366,7 +14366,7 @@
 		)
 		(uuid "dc291eb5-f6e2-4658-8ffa-f2dcc3355352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 301.1931 90)
+			(at 45.72 297.9878 90)
 			(effects
 				(font
 					(size 1.27 1.27)

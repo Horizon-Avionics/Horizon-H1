@@ -3954,10 +3954,6 @@
 		(uuid "7a0fc976-7591-40fb-b3b0-734612df8e56")
 	)
 	(no_connect
-		(at 31.75 73.66)
-		(uuid "7e63c474-6fe0-4112-b1e6-691f276658f5")
-	)
-	(no_connect
 		(at 162.56 62.23)
 		(uuid "7f2cf539-e2d4-4017-9539-96ec9c32e6ab")
 	)
@@ -3968,10 +3964,6 @@
 	(no_connect
 		(at 127 87.63)
 		(uuid "83ef31c3-fa14-4043-a6cd-e3dbff450605")
-	)
-	(no_connect
-		(at 31.75 81.28)
-		(uuid "8beadcd2-03e4-49dc-9edf-24b2a855f938")
 	)
 	(no_connect
 		(at 220.98 125.73)
@@ -4014,10 +4006,6 @@
 		(uuid "a80f801e-241b-48fc-8592-13a050e1a5ee")
 	)
 	(no_connect
-		(at 31.75 68.58)
-		(uuid "a9787f12-0dff-477a-986f-d7645a91bd6b")
-	)
-	(no_connect
 		(at 162.56 85.09)
 		(uuid "afd9fdbf-9ea7-4efe-b4fa-3bd0d8c785e1")
 	)
@@ -4032,10 +4020,6 @@
 	(no_connect
 		(at 251.46 138.43)
 		(uuid "beab9261-1ceb-4668-aa56-ebeb84704192")
-	)
-	(no_connect
-		(at 31.75 71.12)
-		(uuid "bebe0329-8e5b-4c10-8f93-abe088c6ced8")
 	)
 	(no_connect
 		(at 162.56 57.15)
@@ -4704,6 +4688,28 @@
 		(uuid "104db873-6094-4581-979f-a0a6afd94877")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.1887 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet2_signalfire"
+		(shape input)
+		(at 31.75 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1665cacd-3413-4c2b-b5f2-92d74b97224e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2269 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,6 +5401,28 @@
 			)
 		)
 	)
+	(global_label "mosfet1_signalfire"
+		(shape input)
+		(at 31.75 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d2e5369-fe06-429f-adc7-9862387a22a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2269 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PTA12"
 		(shape input)
 		(at 220.98 41.91 180)
@@ -5593,6 +5621,28 @@
 			)
 		)
 	)
+	(global_label "mosfet4_signalfire"
+		(shape input)
+		(at 31.75 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9161d807-bd5b-4dc7-be29-ac4ecf49779e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2269 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+ DMCU-2"
 		(shape input)
 		(at 127 105.41 180)
@@ -5760,6 +5810,28 @@
 		(uuid "a813b240-7b50-474d-bc45-36ab08c5e347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.2091 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet3_signalfire"
+		(shape input)
+		(at 31.75 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8b29f6e-0285-458a-8d0b-178a8e0808dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2269 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,6 +8177,73 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d895643-ae25-427e-9fc1-bb7f97e7e7c7")
+		(property "Reference" "C79"
+			(at 69.85 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 69.85 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 52.07 130.5052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87e428e1-43ad-46d9-8940-472935f30f36")
+		)
+		(pin "1"
+			(uuid "dc0af5c2-1d09-4c86-91cc-7b28feae4e82")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -12392,7 +12531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 129.54 0)
+		(at 59.69 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12400,7 +12539,7 @@
 		(dnp no)
 		(uuid "f4a42508-e05b-4805-8d8b-f2ca3d5108c2")
 		(property "Reference" "#PWR014"
-			(at 52.07 135.89 0)
+			(at 66.04 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 51.816 132.842 90)
+			(at 62.992 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +12557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +12566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12575,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 129.54 0)
+			(at 59.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
