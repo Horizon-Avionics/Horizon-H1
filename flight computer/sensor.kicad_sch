@@ -10006,10 +10006,10 @@
 	)
 	(text "Baro"
 		(exclude_from_sim no)
-		(at 255.778 116.84 0)
+		(at 242.824 115.57 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "708f9cad-5155-4728-baea-15da821b060b")
@@ -12880,7 +12880,7 @@
 			)
 		)
 	)
-	(global_label " SPI0_SCK MMCU"
+	(global_label "SPI0_SCK MMCU"
 		(shape input)
 		(at 175.26 137.16 180)
 		(fields_autoplaced yes)
@@ -12892,7 +12892,7 @@
 		)
 		(uuid "03c843db-ee7f-48ff-8f05-fea21515eab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8254 137.16 0)
+			(at 156.793 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +14112,7 @@
 			)
 		)
 	)
-	(global_label "CS TMCU"
+	(global_label "SCK TMCU"
 		(shape input)
 		(at 251.46 100.33 0)
 		(fields_autoplaced yes)
@@ -14124,7 +14124,7 @@
 		)
 		(uuid "bf5a5664-7188-4984-af10-b7e4c974c2f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.9118 100.33 0)
+			(at 264.1818 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
