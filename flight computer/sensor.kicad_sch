@@ -16679,7 +16679,7 @@
 		(fields_autoplaced yes)
 		(uuid "24012799-67cf-4f9a-b559-e079d60ab09b")
 		(property "Reference" "C41"
-			(at -143.51 208.2862 0)
+			(at -142.24 208.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,8 +16687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -143.51 210.8262 0)
+		(property "Value" "2.7 pF"
+			(at -142.24 210.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17036,7 +17036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "2.2 pF"
 			(at -71.12 199.136 0)
 			(effects
 				(font
@@ -17172,7 +17172,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "6.8 nH"
 			(at -152.4 203.2 90)
 			(effects
 				(font
@@ -18697,7 +18697,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b3450c8-2913-4df1-855a-c90ea5c2eacc")
 		(property "Reference" "C13"
-			(at -156.21 208.2862 0)
+			(at -154.94 208.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18705,8 +18705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -156.21 210.8262 0)
+		(property "Value" "2.2 pF"
+			(at -154.94 210.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19110,7 +19110,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fcb6f0f-a172-4707-b059-6d7c169ec7cc")
 		(property "Reference" "C7"
-			(at -154.94 185.4262 0)
+			(at -153.67 185.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,8 +19118,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -154.94 187.9662 0)
+		(property "Value" "2.2 pF"
+			(at -153.67 187.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19256,7 +19256,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.5 pF"
 			(at -148.5837 180.34 90)
 			(effects
 				(font
@@ -20429,7 +20429,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10 nH"
 			(at -68.58 191.77 90)
 			(effects
 				(font
@@ -22864,7 +22864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.8 pF"
 			(at -60.96 199.136 0)
 			(effects
 				(font
@@ -23955,10 +23955,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "79290620-5d19-4d28-b3b8-e398c13a95ba")
 		(property "Reference" "L4"
-			(at -156.21 179.0699 0)
+			(at -165.1 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,8 +23965,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -156.21 181.6099 0)
+		(property "Value" "8.2 nH"
+			(at -165.1 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24807,7 +24806,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.0 pF"
 			(at -78.7337 190.5 90)
 			(effects
 				(font
@@ -25674,7 +25673,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c69b174-4d1c-43e4-9054-918ef60f20f2")
 		(property "Reference" "C9"
-			(at -135.89 185.4262 0)
+			(at -134.62 185.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25682,8 +25681,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -135.89 187.9662 0)
+		(property "Value" "2.2 pF"
+			(at -134.62 187.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25817,7 +25816,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "6.8 nH"
 			(at -142.24 181.61 90)
 			(effects
 				(font
@@ -26429,7 +26428,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.8 pF"
 			(at -135.8837 201.93 90)
 			(effects
 				(font
@@ -29159,7 +29158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12 pF"
 			(at 66.04 136.144 0)
 			(effects
 				(font
@@ -29571,7 +29570,7 @@
 		(fields_autoplaced yes)
 		(uuid "bac856de-ab5d-460d-92e7-7875c6cec17a")
 		(property "Reference" "C11"
-			(at -125.73 185.4262 0)
+			(at -124.46 185.4262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29579,8 +29578,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
-			(at -125.73 187.9662 0)
+		(property "Value" "2.7 pF"
+			(at -124.46 187.9662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30838,7 +30837,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1.2 pF"
 			(at -132.0737 176.53 90)
 			(effects
 				(font
@@ -31175,7 +31174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "12 pF"
 			(at 69.596 112.014 0)
 			(effects
 				(font
@@ -34057,7 +34056,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10 nH"
 			(at -125.984 182.626 90)
 			(effects
 				(font
