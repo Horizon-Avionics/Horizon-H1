@@ -13232,28 +13232,6 @@
 			)
 		)
 	)
-	(global_label "CS_IMU1"
-		(shape input)
-		(at 196.85 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3cbbc662-099b-4d70-a430-8a257b2e6560")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8215 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM1"
 		(shape input)
 		(at -5.08 160.02 180)
@@ -13377,6 +13355,28 @@
 		(uuid "55d1d657-89f0-44be-84d7-01f078794ced")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.0072 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_IMU TMCU"
+		(shape input)
+		(at 196.85 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56206008-b645-43da-9d5d-0fa76cb05e47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.0439 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
