@@ -7984,7 +7984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm"
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Vertical"
 			(at 279.4 91.44 0)
 			(effects
 				(font
