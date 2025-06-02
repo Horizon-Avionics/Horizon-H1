@@ -1,11 +1,4 @@
-24749693620622061
-A3909
-MSOP10-PAD
-
-
-0
-11
-11
+24740956904316538
 ABX00028
 MODULE_ABX00028
 
@@ -64665,20 +64658,6 @@ solder jumper open
 0
 3
 3
-KiCADv6
-BGM220SC12WGA2R
-
-BGM220SC12WGA2R 
-0
-44
-44
-L96-M33
-XCVR_L96-M33
-
-
-0
-31
-31
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -65883,13 +65862,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MK20DX256VLH7
-QFP50P1200X1200X160-64N
-
-
-0
-64
-64
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91237,13 +91209,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SMA_CONNECTOR
-LPRS_SMA_CONNECTOR
-
-
-0
-5
-5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
