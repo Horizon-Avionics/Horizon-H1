@@ -12881,7 +12881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMA:LPRS_SMA_CONNECTOR"
+		(property "Footprint" "SMA_CONNECTOR:LPRS_SMA_CONNECTOR"
 			(at -6.35 91.44 0)
 			(effects
 				(font
@@ -16461,7 +16461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMA:LPRS_SMA_CONNECTOR"
+		(property "Footprint" "SMA_CONNECTOR:LPRS_SMA_CONNECTOR"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -19663,7 +19663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGM220SC12WGA2R:BGM220SC12WGA2R"
+		(property "Footprint" "KiCADv6:BGM220SC12WGA2R"
 			(at -83.82 81.28 0)
 			(effects
 				(font
@@ -21795,7 +21795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "U.FL:HRS_U.FL-R-SMT_01_"
+		(property "Footprint" "U.FL-R-SMT_01_:HRS_U.FL-R-SMT_01_"
 			(at -49.53 196.85 0)
 			(effects
 				(font
