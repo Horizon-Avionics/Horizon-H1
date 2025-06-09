@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "horizon.step",
       "svg": "",
       "vrml": ""
     },
