@@ -4070,6 +4070,10 @@
 		(uuid "dfc60d0d-2d25-427d-8ee7-1bfc616c1daf")
 	)
 	(no_connect
+		(at 31.75 73.66)
+		(uuid "e39062d0-a682-4628-9246-640443d11f10")
+	)
+	(no_connect
 		(at 334.01 76.2)
 		(uuid "ecb56e62-6eea-4638-b1f7-8842ea8f498a")
 	)
@@ -5712,28 +5716,6 @@
 		(uuid "a813b240-7b50-474d-bc45-36ab08c5e347")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.2091 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "mosfet3_signalfire"
-		(shape input)
-		(at 31.75 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8b29f6e-0285-458a-8d0b-178a8e0808dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.2269 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
