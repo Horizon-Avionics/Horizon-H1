@@ -98,6 +98,10 @@ Some of the re-routing was done specifially to the TMCU (the MCU on the right si
 
 ![image](https://github.com/user-attachments/assets/f70af8d4-baa2-4753-b9be-16f1019343c4)
 
+Day 06/15 - 1 hour yourlocaldndnerd
+
+- filters... :sob: at least we have some rough filters now, all that's left is testing.
+
 
 **Total hours worked on it so far- \~ hours**  
 **Links-**   
