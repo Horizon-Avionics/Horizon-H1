@@ -3045,7 +3045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Horizontal"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -3670,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_2x03_P2.00mm_Horizontal"
 			(at 124.46 50.8 0)
 			(effects
 				(font
