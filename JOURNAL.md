@@ -131,6 +131,10 @@ Day 25 \- June 18th \- 10 minutes:
 
 - Added the PCBWAY logo to our board since they will be sponsoring the PCB it seems like.
 
+All of @yourlocaldndnerd's time \- 13 hours programming + \~30 hours of docs and design
+- I keep forgetting to add any of my time, so this is all of mine combined into one slot.
+- I mostly just programmed the gps, radio (which were completed by around day 15), and the kalman filters (still needs testing)
+
 **Total hours worked on it so far- \~128.6 hours**  
 **Links-**   
 [**https://github.com/Horizon-Avionics/Horizon-Avionics-Hardware**](https://github.com/Horizon-Avionics/Horizon-Avionics-Hardware)  
