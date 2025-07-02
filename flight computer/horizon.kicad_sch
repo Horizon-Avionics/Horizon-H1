@@ -3631,6 +3631,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:CK_KMS2xxG"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 4.318 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CK_KMS2xxG"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SW*KMS2*G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CK_KMS2xxG_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CK_KMS2xxG_1_1"
+				(rectangle
+					(start -3.048 2.54)
+					(end 3.048 -1.27)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4007,6 +4218,12 @@
 			)
 		)
 		(uuid "f737f7f4-8160-444c-9791-15163010c550")
+	)
+	(junction
+		(at 383.54 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f7516b-f5e5-4623-a1a8-5c0f5225a377")
 	)
 	(junction
 		(at 162.56 187.96)
@@ -4556,6 +4773,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 118.11) (xy 384.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3307e7f2-9fdd-4539-96ab-0a6bf9737a28")
+	)
+	(wire
+		(pts
 			(xy 292.1 27.94) (xy 290.83 27.94)
 		)
 		(stroke
@@ -4563,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "37fa38ae-e2b9-4ebd-a7f5-70fad3fa45b0")
+	)
+	(wire
+		(pts
+			(xy 417.83 69.85) (xy 424.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7974dc-650e-4ce3-8ff3-120675597ab0")
 	)
 	(wire
 		(pts
@@ -4726,6 +4963,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 115.57) (xy 382.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad65926-fd17-4adf-bc12-884c58a542c4")
+	)
+	(wire
+		(pts
 			(xy 147.32 27.94) (xy 147.32 29.21)
 		)
 		(stroke
@@ -4836,6 +5083,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 118.11) (xy 383.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2500f4-940f-4d72-b2cd-a1aec9a01102")
+	)
+	(wire
+		(pts
 			(xy 201.93 106.68) (xy 204.47 106.68)
 		)
 		(stroke
@@ -4883,6 +5140,16 @@
 			(type default)
 		)
 		(uuid "ee83548b-5143-4c5c-8106-881e3b66b924")
+	)
+	(wire
+		(pts
+			(xy 383.54 118.11) (xy 384.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fac2ee-f317-4a16-bb2b-91b4bfce342d")
 	)
 	(wire
 		(pts
@@ -5364,6 +5631,28 @@
 			)
 		)
 	)
+	(global_label "SWCLK MMCU"
+		(shape input)
+		(at 417.83 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46be9347-1aa5-4910-bb79-da8835af0b16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 433.5151 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERVO4"
 		(shape input)
 		(at 31.75 48.26 180)
@@ -5738,6 +6027,28 @@
 			)
 		)
 	)
+	(global_label "nRESET MMCU"
+		(shape input)
+		(at 417.83 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e225cac-dbde-48bd-8c60-51a4695c15e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 434.1802 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PTA12"
 		(shape input)
 		(at 232.41 40.64 180)
@@ -6059,6 +6370,28 @@
 		(uuid "9dea02fa-1afa-41ba-8baf-a470c25b2e6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 186.5907 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO MMCU"
+		(shape input)
+		(at 351.79 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e019464-485f-407b-b99f-0fe526c16a5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.4677 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,6 +7030,28 @@
 		(uuid "f418ce86-dd25-4638-9cf3-d9376ba7a4d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.9958 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nRESET MMCU"
+		(shape input)
+		(at 351.79 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f457eb22-b807-46fd-b8b8-949ea79284d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.4398 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,6 +9523,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 429.26 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "679637a2-5a52-4850-a60c-f17c8f986c5f")
+		(property "Reference" "#PWR032"
+			(at 429.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 425.958 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 429.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff1c316-7804-4861-9966-844bcb3f1e46")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 33.02 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11081,7 +11501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 115.57 0)
+		(at 383.54 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11089,7 +11509,7 @@
 		(dnp no)
 		(uuid "aafbc463-2e63-4756-badc-b8f8ab4178a1")
 		(property "Reference" "#PWR029"
-			(at 384.81 121.92 0)
+			(at 383.54 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +11518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.556 118.872 90)
+			(at 383.286 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 115.57 0)
+			(at 383.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 115.57 0)
+			(at 383.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 115.57 0)
+			(at 383.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,6 +11951,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 434.34 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a3b54e-f521-4b34-a21b-498e12bf8885")
+		(property "Reference" "#PWR031"
+			(at 440.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 438.15 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 434.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 434.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 434.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bba7135e-3cdb-4fdb-9e73-6e891e16dd1c")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 25.4 270)
 		(unit 1)
@@ -11725,6 +12212,76 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
 					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:CK_KMS2xxG")
+		(at 429.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bffeef92-174d-4fe3-8d86-2554eb5beeeb")
+		(property "Reference" "SW1"
+			(at 436.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CK_KMS2xxG"
+			(at 436.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(at 429.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(at 429.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(at 429.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SH"
+			(uuid "ae0ea362-eac8-4831-a8f1-61676af97008")
+		)
+		(pin "2"
+			(uuid "6b064cea-2786-4b2b-8684-56e80f1f8dee")
+		)
+		(pin "1"
+			(uuid "66a4c182-a0a8-4841-8928-7e094806bd7f")
+		)
+		(instances
+			(project ""
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
