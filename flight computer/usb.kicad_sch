@@ -3652,7 +3652,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96d55dcc-1a38-4301-a19c-5c20a75757db")
 		(property "Reference" "J18"
 			(at 125.73 41.91 0)
