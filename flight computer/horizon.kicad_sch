@@ -4598,10 +4598,6 @@
 		(uuid "afd9fdbf-9ea7-4efe-b4fa-3bd0d8c785e1")
 	)
 	(no_connect
-		(at 162.56 100.33)
-		(uuid "b1c43638-2629-47fe-8561-d7cbc225a557")
-	)
-	(no_connect
 		(at 127 74.93)
 		(uuid "b4a6cafe-fe4a-443e-b629-9cd40e4f63f7")
 	)
@@ -5716,28 +5712,6 @@
 		(uuid "52d7fa68-ccfe-4c94-b3b0-89c118de65a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.1853 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUZZER"
-		(shape input)
-		(at 232.41 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "56d688ab-d3c4-4020-bad7-10be0bb8847b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.9863 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,6 +6839,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUZZER"
+		(shape input)
+		(at 162.56 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e33338e9-7667-4756-9406-77fa0677f769")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.9837 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
