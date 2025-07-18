@@ -5046,10 +5046,6 @@
 		(uuid "53473273-477f-48e2-b7cc-c8eb6cd29100")
 	)
 	(no_connect
-		(at 127 95.25)
-		(uuid "56940f65-6fcc-4f8e-8d97-c8c72b42c1b7")
-	)
-	(no_connect
 		(at 232.41 119.38)
 		(uuid "5eb08fc1-730d-4c9f-ad6a-6bf9e5d20535")
 	)
@@ -5184,10 +5180,6 @@
 	(no_connect
 		(at 31.75 83.82)
 		(uuid "dbaf7515-1362-45ff-a1df-405dffa98d55")
-	)
-	(no_connect
-		(at 127 97.79)
-		(uuid "dbff5d9e-b84d-4ff3-bbee-30fecc6054ee")
 	)
 	(no_connect
 		(at 232.41 99.06)
@@ -7114,6 +7106,50 @@
 		(uuid "a4948e5d-fc4d-4f9d-9d29-e95415269510")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.5077 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX_NRST"
+		(shape input)
+		(at 127 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a74705bb-528b-4976-aca9-fe232959d2d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8506 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SX_DIO1"
+		(shape input)
+		(at 127 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7da0884-9b9e-4ca3-92f7-4f6d6410fc87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2134 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
