@@ -4966,10 +4966,6 @@
 		(uuid "15a1e05a-03fb-44e8-9f42-762c652c89b0")
 	)
 	(no_connect
-		(at 232.41 73.66)
-		(uuid "164c5ab0-8105-4969-a8c7-89fbacace7ee")
-	)
-	(no_connect
 		(at 162.56 120.65)
 		(uuid "24629448-0726-4e2b-b5ae-a1d7f053bf1c")
 	)
@@ -5076,10 +5072,6 @@
 	(no_connect
 		(at 162.56 72.39)
 		(uuid "6de4831a-1b60-457b-b488-aa4d6d1c0088")
-	)
-	(no_connect
-		(at 232.41 71.12)
-		(uuid "70dcc776-9c90-459f-928c-4c4a0b69b6c5")
 	)
 	(no_connect
 		(at 67.31 58.42)
@@ -5575,16 +5567,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 91.44) (xy 232.41 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4a3bff-a0de-4d42-bdc3-8648f23eaa77")
-	)
-	(wire
-		(pts
 			(xy 213.36 68.58) (xy 232.41 68.58)
 		)
 		(stroke
@@ -5896,28 +5878,6 @@
 		(uuid "09e0f680-661b-40f0-9f3e-c71e82f16298")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 248.92 189.0702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "StatusLED_2"
-		(shape input)
-		(at 232.41 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ef7cad1-3888-43e1-82e0-c314be1df42c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8136 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,6 +6230,28 @@
 		(uuid "3bbb3ca4-ec75-46c3-b3e6-628479b60006")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.101 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "StatusLED_2"
+		(shape input)
+		(at 232.41 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41056e73-f320-4481-87a9-a9c865cf23a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.8136 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,6 +6745,28 @@
 			)
 		)
 	)
+	(global_label "StatusLED_1"
+		(shape input)
+		(at 232.41 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ad282a0-496c-482d-a7ba-bc68b500108d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.8136 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI0_SCK MMCU"
 		(shape input)
 		(at 232.41 101.6 180)
@@ -6864,6 +6868,28 @@
 		(uuid "8741a5c0-fda7-4971-82bf-976e88585593")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 206.8673 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "StatusLED_3"
+		(shape input)
+		(at 232.41 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b3d0c48-e5a7-40e7-a29b-04627b3731a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.8136 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,28 +7405,6 @@
 			)
 		)
 	)
-	(global_label "StatusLED_1"
-		(shape input)
-		(at 194.31 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb62ac7b-015c-4ee9-bf27-eb39cec48609")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.7136 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI TMCU"
 		(shape input)
 		(at 127 69.85 180)
@@ -7436,28 +7440,6 @@
 		(uuid "be0add69-d376-4709-8cae-c9cb6190fc2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 222.4701 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "StatusLED_3"
-		(shape input)
-		(at 232.41 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be609408-7d9f-4a11-9246-438b86e3d180")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.8136 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
