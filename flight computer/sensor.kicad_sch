@@ -14145,7 +14145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "U.FL:HRS_U.FL-R-SMT_01_"
+		(property "Footprint" "U.FL-R-SMT_01_:HRS_U.FL-R-SMT_01_"
 			(at 114.3 49.53 0)
 			(effects
 				(font
@@ -20821,7 +20821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "U.FL:HRS_U.FL-R-SMT_01_"
+		(property "Footprint" "U.FL-R-SMT_01_:HRS_U.FL-R-SMT_01_"
 			(at -7.62 232.41 0)
 			(effects
 				(font
@@ -25697,7 +25697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "U.FL:HRS_U.FL-R-SMT_01_"
+		(property "Footprint" "U.FL-R-SMT_01_:HRS_U.FL-R-SMT_01_"
 			(at -8.89 91.44 0)
 			(effects
 				(font
@@ -26656,7 +26656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLT-8530_JHE"
+		(property "Footprint" ""
 			(at 35.56 88.9 0)
 			(effects
 				(font
