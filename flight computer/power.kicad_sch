@@ -3079,6 +3079,12 @@
 		(uuid "5d6d5dbf-bb80-4877-bdcc-4d8a71e1bc92")
 	)
 	(junction
+		(at 154.94 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aeea7f9-bf9f-4e1f-8b8c-5dbe7f9bb420")
+	)
+	(junction
 		(at 123.19 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3107,12 +3113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c035a32-09bd-4496-90fc-cf6256804ba6")
-	)
-	(junction
-		(at 154.94 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97f48d9b-bff5-4920-a7c0-d1447c08b660")
 	)
 	(junction
 		(at 57.15 39.37)
@@ -3470,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6213b8b4-db00-4a94-b931-bf8f088e6107")
+	)
+	(wire
+		(pts
 			(xy 59.69 62.23) (xy 62.23 62.23)
 		)
 		(stroke
@@ -3517,16 +3527,6 @@
 			(type default)
 		)
 		(uuid "6bcb28c5-7f6a-471f-a1bc-24802033e7b7")
-	)
-	(wire
-		(pts
-			(xy 162.56 102.87) (xy 163.83 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5fc257-b892-4e11-89d0-e0b9617643db")
 	)
 	(wire
 		(pts
@@ -4442,73 +4442,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/9f395e7d-f0e3-417c-8bdc-8f8d3cf70e8c"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PMEG6020ER")
-		(at 158.75 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a1a8578-f67a-4eb6-b693-534020224161")
-		(property "Reference" "D23"
-			(at 154.94 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMEG6020ER"
-			(at 154.94 108.712 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 158.75 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f589e135-5ba1-4e1f-ab9e-ee103a5e0f69")
-		)
-		(pin "1"
-			(uuid "977a7513-a7cb-4d8d-a4e2-32e49bc846de")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/9f395e7d-f0e3-417c-8bdc-8f8d3cf70e8c"
-					(reference "D23")
 					(unit 1)
 				)
 			)
