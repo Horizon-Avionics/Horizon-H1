@@ -2474,7 +2474,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 121.92 27.94 90)
+		(at 125.73 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2484,7 +2484,7 @@
 		)
 		(uuid "06ed1a46-5b18-4f6f-8235-610ebc7aad0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 22.1124 90)
+			(at 125.73 22.1124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,28 +2507,6 @@
 		(uuid "141be405-c54a-44d1-9c67-28efbe07393a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.6976 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D- DMCU-1"
-		(shape input)
-		(at 134.62 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3cd16d2b-ac9f-425e-9772-43c2f3abc7f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.519 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2540,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 134.62 30.48 0)
+		(at 138.43 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2572,7 +2550,7 @@
 		)
 		(uuid "514c9bac-aede-46e6-b917-902d5e3e1f71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4476 30.48 0)
+			(at 144.2576 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2562,7 @@
 	)
 	(global_label "D- DMCU-2"
 		(shape input)
-		(at 134.62 27.94 0)
+		(at 138.43 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2594,7 +2572,7 @@
 		)
 		(uuid "59a162f0-3f77-4778-a56a-2ac1d5fc0a41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.519 27.94 0)
+			(at 153.329 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,28 +2604,6 @@
 			)
 		)
 	)
-	(global_label "D+ DMCU-1"
-		(shape input)
-		(at 132.08 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7941dfee-edd3-4cc2-8b64-b595e1c579d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.979 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape input)
 		(at 132.08 50.8 0)
@@ -2666,6 +2622,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+ DMCU-1"
+		(shape input)
+		(at 119.38 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d62249c-f2e5-4e00-993b-1753b073e81a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.481 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2692,9 +2670,31 @@
 			)
 		)
 	)
-	(global_label "D- MMCU"
+	(global_label "D+ MMCU"
 		(shape input)
-		(at 121.92 30.48 180)
+		(at 132.08 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80f8f6a3-885d-40fb-873e-5b0da54d018a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.3785 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- DMCU-1"
+		(shape input)
+		(at 125.73 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2702,9 +2702,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8c27fc59-beb3-4458-97df-c66bd40ed225")
+		(uuid "88779876-5413-4455-8666-8fa695ef54c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.6215 30.48 0)
+			(at 110.831 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 121.92 33.02 270)
+		(at 125.73 33.02 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,29 +2726,7 @@
 		)
 		(uuid "994bcd6d-eade-417e-bea6-01cfb0e108c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 38.8476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+ MMCU"
-		(shape input)
-		(at 119.38 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ad166ac-22fd-449f-b24d-3ed82f29e63c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0815 50.8 0)
+			(at 125.73 38.8476 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,6 +2754,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- MMCU"
+		(shape input)
+		(at 138.43 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe71d32e-efa4-41b8-8d56-563d009f81c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7285 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2983,7 +2983,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
-		(at 127 30.48 0)
+		(at 130.81 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2992,7 +2992,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cb2d258-9b99-43dc-9384-401f98709b51")
 		(property "Reference" "J21"
-			(at 128.27 21.59 0)
+			(at 132.08 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3000,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Counter_Clockwise"
-			(at 128.27 24.13 0)
+			(at 132.08 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 127 30.48 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 30.48 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 30.48 0)
+			(at 130.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
