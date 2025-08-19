@@ -2516,6 +2516,28 @@
 			)
 		)
 	)
+	(global_label "D+ DMCU-2"
+		(shape input)
+		(at 119.38 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f0825bd-c799-4427-b7c0-7503d909e715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.481 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 102.87 30.48 0)
@@ -2560,29 +2582,7 @@
 			)
 		)
 	)
-	(global_label "D- DMCU-2"
-		(shape input)
-		(at 138.43 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59a162f0-3f77-4778-a56a-2ac1d5fc0a41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.329 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+ DMCU-2"
+	(global_label "D+ DMCU-1"
 		(shape input)
 		(at 132.08 48.26 0)
 		(fields_autoplaced yes)
@@ -2592,9 +2592,31 @@
 			)
 			(justify left)
 		)
-		(uuid "755ac22e-ac9c-44b0-8347-1dbbecd7f1b1")
+		(uuid "58e416f6-0d9b-4cbc-a0e1-ea238403ed46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.979 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D- DMCU-1"
+		(shape input)
+		(at 138.43 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60282bd7-7c07-46da-bc18-836c0e0ed867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.329 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,28 +2648,6 @@
 			)
 		)
 	)
-	(global_label "D+ DMCU-1"
-		(shape input)
-		(at 119.38 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d62249c-f2e5-4e00-993b-1753b073e81a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.481 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape input)
 		(at 119.38 48.26 90)
@@ -2672,7 +2672,7 @@
 	)
 	(global_label "D+ MMCU"
 		(shape input)
-		(at 132.08 55.88 0)
+		(at 132.08 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2682,7 +2682,7 @@
 		)
 		(uuid "80f8f6a3-885d-40fb-873e-5b0da54d018a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.3785 55.88 0)
+			(at 144.3785 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2692,7 @@
 			)
 		)
 	)
-	(global_label "D- DMCU-1"
+	(global_label "D- DMCU-2"
 		(shape input)
 		(at 125.73 30.48 180)
 		(fields_autoplaced yes)
@@ -2702,7 +2702,7 @@
 			)
 			(justify right)
 		)
-		(uuid "88779876-5413-4455-8666-8fa695ef54c0")
+		(uuid "9008984d-421f-44f8-b3c3-9e80a799c941")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.831 30.48 0)
 			(effects
