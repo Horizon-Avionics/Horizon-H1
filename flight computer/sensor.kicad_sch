@@ -9715,16 +9715,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 212.09) (xy 45.72 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b56780-3804-41da-9ad3-0fae121b8ec8")
-	)
-	(wire
-		(pts
 			(xy 224.79 156.21) (xy 227.33 156.21)
 		)
 		(stroke
@@ -9862,16 +9852,6 @@
 			(type default)
 		)
 		(uuid "2d60f0ac-cb3c-4016-8c24-5dde01a077a8")
-	)
-	(wire
-		(pts
-			(xy 90.17 222.25) (xy 90.17 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d659922-6db6-477f-8a92-c79fa7b50578")
 	)
 	(wire
 		(pts
@@ -10255,16 +10235,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 222.25) (xy 69.85 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d044855-c316-4c55-9c8d-78fcf588ae69")
-	)
-	(wire
-		(pts
 			(xy -87.63 90.17) (xy -83.82 90.17)
 		)
 		(stroke
@@ -10282,16 +10252,6 @@
 			(type default)
 		)
 		(uuid "81b3f92e-1fc0-4c78-ac83-ac158c207535")
-	)
-	(wire
-		(pts
-			(xy 74.93 254) (xy 72.39 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d7e13a-4fd1-4916-a9ed-80b1b8df8e56")
 	)
 	(wire
 		(pts
@@ -10565,16 +10525,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 222.25) (xy 114.3 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0d3e19-5564-428d-89f5-6365774da6d5")
-	)
-	(wire
-		(pts
 			(xy 74.93 287.02) (xy 74.93 285.75)
 		)
 		(stroke
@@ -10785,16 +10735,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 222.25) (xy 135.89 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfaabfaa-b2f1-43e8-b8dc-09785dc896b1")
-	)
-	(wire
-		(pts
 			(xy 48.26 -11.43) (xy 41.91 -11.43)
 		)
 		(stroke
@@ -10892,16 +10832,6 @@
 			(type default)
 		)
 		(uuid "ef685d4c-b5b6-49e7-9a62-db7ef6718f4d")
-	)
-	(wire
-		(pts
-			(xy 77.47 254) (xy 80.01 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efde9773-5a62-4e90-91fc-f21b2351b00a")
 	)
 	(wire
 		(pts
@@ -11269,28 +11199,6 @@
 			)
 		)
 	)
-	(global_label "mosfet3_signal"
-		(shape input)
-		(at 97.79 234.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a2f455a-d9c7-497f-81cb-ff7c9fec9f6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 252.2678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SX_RFI_N"
 		(shape input)
 		(at -78.74 231.14 180)
@@ -11524,28 +11432,6 @@
 		(uuid "5efd051d-133b-4aaa-b294-581e72a38cc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.3511 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "mosfet2_signal"
-		(shape input)
-		(at 77.47 234.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "668520bc-21e9-47c3-a9fd-bfd739222716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 252.2678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,28 +12079,6 @@
 			)
 		)
 	)
-	(global_label "mosfet4_signal"
-		(shape input)
-		(at 121.92 234.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cddc2969-50dd-40cf-afcd-7c787180efda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 252.2678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SX_VR_PA"
 		(shape input)
 		(at -99.06 218.44 180)
@@ -12391,28 +12255,6 @@
 			)
 		)
 	)
-	(global_label "mosfet1_signal"
-		(shape input)
-		(at 53.34 234.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e07513c8-6424-4097-bdc8-92aaca4c9354")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 252.2678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI TMCU"
 		(shape input)
 		(at 220.98 38.1 180)
@@ -12448,28 +12290,6 @@
 		(uuid "ef32e58a-e1c0-4335-80d0-aa47bb57f8c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.3834 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "mosfet5_signal"
-		(shape input)
-		(at 143.51 234.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f002faf6-55b0-427a-ba97-0fb0dfdd6ba4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 252.2678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,6 +13935,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "222a364e-19b2-4fbf-9821-f141b91c1813")
+		(property "Reference" "#PWR0135"
+			(at 114.3 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5ec8fb-0a85-4f26-817c-56ea80a8cda6")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLML6402")
 		(at 77.47 271.78 180)
 		(unit 1)
@@ -14980,82 +14866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 48.26 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3432f224-ae17-4cc0-a435-87fc05743b33")
-		(property "Reference" "Q1"
-			(at 41.91 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 41.91 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.18 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 43.18 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 48.26 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84b04194-bdd6-4015-b849-891a6f025664")
-		)
-		(pin "3"
-			(uuid "e5d806ff-91dd-472c-b2fa-981a9c8da469")
-		)
-		(pin "2"
-			(uuid "0bdd311b-bcae-48b8-b0a8-695f9e48f4c7")
-		)
-		(instances
-			(project ""
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SMLVN6RGB")
 		(at 102.87 -10.16 180)
 		(unit 1)
@@ -15262,6 +15072,72 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38311852-38ed-4bab-9349-45734be91823")
+		(property "Reference" "#PWR0136"
+			(at 135.89 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7faa2bb5-227c-4c37-8845-822aacc29988")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -16778,76 +16654,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b378d1-6566-410e-a900-c8b91d51f3a3")
-		(property "Reference" "R66"
-			(at 124.46 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 124.46 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.698 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 121.92 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d497d0a0-9b82-4e37-9573-b09f9b5f3e2f")
-		)
-		(pin "2"
-			(uuid "29f699d2-195f-42bc-86e2-61b5485f7871")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 111.76 -10.16 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17153,76 +16959,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6182ea89-6c66-4cfb-a6ac-08dba3cdf947")
-		(property "Reference" "R67"
-			(at 146.05 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 146.05 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.288 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af2ef236-85ee-4736-a4ca-c53505a8e498")
-		)
-		(pin "2"
-			(uuid "15eb2a4e-d147-4db0-9e04-b795e35648c5")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -18448,222 +18184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 138.43 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7157ec36-e423-42cd-88a9-9cdad1b96d53")
-		(property "Reference" "Q6"
-			(at 132.08 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 132.08 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 133.35 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 133.35 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 138.43 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "665b93d0-09ec-4f6a-80fa-37cf4f43023b")
-		)
-		(pin "3"
-			(uuid "79a4dfab-19a4-490e-a289-1f419ac1dce6")
-		)
-		(pin "2"
-			(uuid "71b0505e-952a-4f8f-ad8f-9b20b2d7e198")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 77.47 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72eabc6b-69ab-4854-b36c-a13632f03e44")
-		(property "Reference" "R64"
-			(at 80.01 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 80.01 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 79.248 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "207e61c0-54b7-40bc-a437-4d4542021837")
-		)
-		(pin "2"
-			(uuid "89afc0f2-2c42-4d6e-91d7-16578d97f2ef")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 236.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7301208f-dbd1-4e04-8996-2272ae5e6288")
-		(property "Reference" "R71"
-			(at 116.84 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 116.84 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.078 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe3a4cb5-6f1c-4f6e-9da5-4db4bc3cbfdd")
-		)
-		(pin "2"
-			(uuid "6b061e3f-59d5-4a4c-ad2a-14416bd224ac")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 118.11 36.83 270)
 		(unit 1)
@@ -18798,138 +18318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 90.17 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "766bcc20-8b24-4966-a10e-c40e6bba70f7")
-		(property "Reference" "#PWR0163"
-			(at 90.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.17 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 90.17 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "badd43b3-c7ad-43a0-973e-a1a92daaf1be")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77156fec-a064-4a05-93e5-fa3eaa466cff")
-		(property "Reference" "#PWR0162"
-			(at 69.85 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "028f1b7d-0e76-449c-a020-7f729a5a52c2")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "#PWR0162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 90.17 207.01 90)
 		(unit 1)
@@ -18996,151 +18384,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 72.39 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7895caa8-1b2a-4912-8690-8d33c54047b4")
-		(property "Reference" "Q3"
-			(at 66.04 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 66.04 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 67.31 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 67.31 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 72.39 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84af3229-6144-4db1-bb20-327349ef8d89")
-		)
-		(pin "3"
-			(uuid "287cee1f-4e92-4c1b-b637-69a81f1070be")
-		)
-		(pin "2"
-			(uuid "f64d9904-6cfa-4fd5-8268-4bf4ceddb50e")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 236.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "795607da-6ab3-4c4b-8d06-cf71f91df171")
-		(property "Reference" "R62"
-			(at 138.43 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 138.43 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.668 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8b2a70e-4079-4dde-b26b-83d5be5ebdc2")
-		)
-		(pin "2"
-			(uuid "c556d1cb-9b37-4eb0-80dd-cecf9ef56217")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -19215,7 +18458,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 45.72 240.03 180)
+		(at 45.72 212.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19224,7 +18467,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cab80dd-6197-4134-befe-7c8e9a63d315")
 		(property "Reference" "#PWR0125"
-			(at 45.72 236.22 0)
+			(at 45.72 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19233,7 +18476,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 245.11 0)
+			(at 45.72 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19241,7 +18484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 240.03 0)
+			(at 45.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19250,7 +18493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 240.03 0)
+			(at 45.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19259,7 +18502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 240.03 0)
+			(at 45.72 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19910,76 +19153,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 45.72 236.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "903ec7dd-bb5f-4c0f-bd42-44f5791db915")
-		(property "Reference" "R68"
-			(at 48.26 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 48.26 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 47.498 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc7e9450-4f03-4056-aa28-03df7da6008d")
-		)
-		(pin "2"
-			(uuid "53a8245f-0be3-41de-aa63-cd9886ac140f")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 88.9 270)
 		(unit 1)
@@ -20248,76 +19421,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9936f790-d759-479e-a459-3588de2552a7")
-		(property "Reference" "R65"
-			(at 100.33 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 100.33 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.568 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d6f38cd-ffb8-40b8-a1fb-9be75a112870")
-		)
-		(pin "2"
-			(uuid "64b2f91e-2443-4fee-a33f-782ffb2a3348")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -21090,6 +20193,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6edf3ab-0dc4-4bd1-86ec-c5f73d3845f8")
+		(property "Reference" "#PWR0134"
+			(at 90.17 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 90.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a004960e-1fd8-4ca7-9dfc-8ac0ea3dac3f")
+		)
+		(instances
+			(project "horizon"
+				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 151.13 180)
 		(unit 1)
@@ -21491,82 +20660,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 116.84 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aff17723-8f65-4d9e-84f1-d010d16f6b23")
-		(property "Reference" "Q5"
-			(at 110.49 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 110.49 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 111.76 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 111.76 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 116.84 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9277bff3-199b-4291-9240-d7e9681b1790")
-		)
-		(pin "3"
-			(uuid "7f30ee0b-032f-4de0-8b93-fd9f44040dc7")
-		)
-		(pin "2"
-			(uuid "d26b0a47-5e3c-446c-91d5-5e774bedde7f")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -22271,76 +21364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 53.34 231.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0321758-4d42-4d04-9b85-7e7b64384f31")
-		(property "Reference" "R63"
-			(at 55.88 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 55.88 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.118 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c77bbf49-2432-4281-a3f3-076dbb877571")
-		)
-		(pin "2"
-			(uuid "32e91a5d-4d5b-4edd-93b7-60a17b776ddf")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -88.9 142.24 0)
 		(unit 1)
@@ -22648,76 +21671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 69.85 236.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c64e5172-b1d8-449c-bf0e-a2e5ec9277ce")
-		(property "Reference" "R69"
-			(at 72.39 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 72.39 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.628 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9b2ef93-c922-4c44-a8cc-f1a1e3a07ce5")
-		)
-		(pin "2"
-			(uuid "830ac3b4-c74b-4d59-b05c-deef7a07d737")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 27.94 270)
 		(unit 1)
@@ -22921,16 +21874,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 240.03 180)
+		(at 69.85 212.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9039325-dfc3-4adc-ba0a-76960192046c")
-		(property "Reference" "#PWR0164"
-			(at 114.3 236.22 0)
+		(uuid "c905bd94-c08b-44c0-8fe5-7f61afe136a4")
+		(property "Reference" "#PWR0133"
+			(at 69.85 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22939,7 +21892,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 245.11 0)
+			(at 69.85 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22947,7 +21900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 240.03 0)
+			(at 69.85 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22956,7 +21909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 240.03 0)
+			(at 69.85 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22965,7 +21918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 240.03 0)
+			(at 69.85 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22974,12 +21927,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "775ca7ce-e556-49f0-a291-eed75b45dcec")
+			(uuid "55df9142-7cab-4063-9b72-4b6f0b3e56ac")
 		)
 		(instances
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "#PWR0164")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -23056,72 +22009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 240.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb4e1150-8fd3-4355-acc8-e48d43f118f2")
-		(property "Reference" "#PWR0165"
-			(at 135.89 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "330c4e97-78a9-4f68-8952-6fbdf839ceec")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 156.21 -10.16 270)
 		(unit 1)
@@ -23183,76 +22070,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "R94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 236.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfc07ec0-2d71-4a52-91f1-5b6d1a2f26da")
-		(property "Reference" "R70"
-			(at 92.71 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 92.71 237.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.948 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7490d13-fa54-419e-aa22-987766f086ce")
-		)
-		(pin "2"
-			(uuid "10799675-0483-4499-9c1e-7adce6879950")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -24722,82 +23539,6 @@
 			(project "horizon"
 				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 92.71 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8ac04f8-630d-4634-a128-073530f2ba46")
-		(property "Reference" "Q4"
-			(at 86.36 226.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 86.36 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 87.63 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 87.63 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 92.71 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98398ac9-1017-493b-a8a6-52fa9c4878b7")
-		)
-		(pin "3"
-			(uuid "e107be0b-032a-4cc2-937e-93489436e89e")
-		)
-		(pin "2"
-			(uuid "2dc5fdc9-ff89-47b1-bef0-c51edeec2856")
-		)
-		(instances
-			(project "horizon"
-				(path "/78d9c2f3-deae-418a-8c21-4820ea8fc57f/8017925a-458a-4a0a-8733-ba805a96612a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
