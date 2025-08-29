@@ -4501,12 +4501,6 @@
 		(uuid "4e35c9ff-6c0e-483c-92e6-d4ab4f7e771f")
 	)
 	(junction
-		(at 102.87 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5011ef72-59e2-4c97-8e6d-525efdc214c4")
-	)
-	(junction
 		(at 224.79 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4601,6 +4595,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a5b3b9-47ab-4a04-9502-5569d415be4c")
+	)
+	(junction
+		(at 119.38 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caea0659-1542-4c5a-900e-871980ae21c3")
 	)
 	(junction
 		(at 209.55 133.35)
@@ -4894,6 +4894,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b52a71f-2bca-4e19-85f1-eec918474f15")
+	)
+	(wire
+		(pts
 			(xy 384.81 118.11) (xy 384.81 115.57)
 		)
 		(stroke
@@ -5044,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 107.95) (xy 102.87 107.95)
+			(xy 118.11 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5251,16 +5261,6 @@
 			(type default)
 		)
 		(uuid "e39eef11-698a-4162-98dd-7a312feb0d86")
-	)
-	(wire
-		(pts
-			(xy 102.87 107.95) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0264a8-c207-47a0-8f2b-5d9145264a86")
 	)
 	(wire
 		(pts
@@ -6974,9 +6974,9 @@
 			)
 		)
 	)
-	(global_label "D+ DMCU-1"
+	(global_label "D+ DMCU-2"
 		(shape input)
-		(at 97.79 107.95 180)
+		(at 118.11 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6986,7 +6986,7 @@
 		)
 		(uuid "c8f9f37c-edf3-4ea8-b898-ed1768cd1e06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.891 107.95 0)
+			(at 103.211 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7326,7 @@
 			)
 		)
 	)
-	(global_label "D- DMCU-1"
+	(global_label "D- DMCU-2"
 		(shape input)
 		(at 127 105.41 180)
 		(fields_autoplaced yes)
@@ -12491,7 +12491,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 102.87 115.57 180)
+		(at 119.38 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12499,7 +12499,7 @@
 		(dnp no)
 		(uuid "b1bdc038-eb6c-4427-a86a-7bd1674c18dd")
 		(property "Reference" "#PWR037"
-			(at 102.87 111.76 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12508,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 106.426 112.522 0)
+			(at 122.936 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 115.57 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 115.57 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 115.57 0)
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14072,7 +14072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 111.76 0)
+		(at 119.38 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14080,7 +14080,7 @@
 		(dnp no)
 		(uuid "dbe93e81-bcb1-4a7a-94a1-d712950e6b40")
 		(property "Reference" "R14"
-			(at 97.536 112.014 0)
+			(at 114.046 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14089,7 +14089,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 97.536 114.554 0)
+			(at 114.046 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14098,7 +14098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.092 111.76 90)
+			(at 117.602 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 111.76 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14116,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 111.76 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
