@@ -23972,7 +23972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer:MLT-8530_JHE"
 			(at 35.56 88.9 0)
 			(effects
 				(font
