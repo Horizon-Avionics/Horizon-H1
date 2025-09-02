@@ -4954,6 +4954,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 157.48) (xy 130.81 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bf900e-053e-4f23-a0a9-f08e68522ea4")
+	)
+	(wire
+		(pts
 			(xy 209.55 128.27) (xy 209.55 123.19)
 		)
 		(stroke
@@ -5898,7 +5908,7 @@
 	)
 	(global_label "SWDIO DMCU-2"
 		(shape input)
-		(at 130.81 157.48 180)
+		(at 129.54 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5908,7 +5918,7 @@
 		)
 		(uuid "5e311913-3c34-4b9e-97a8-b46a8e236d2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.8872 157.48 0)
+			(at 111.6172 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
