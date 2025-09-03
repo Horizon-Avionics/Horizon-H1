@@ -3,7 +3,7 @@
 ## Building a fully open-source flight computer.
 
 ### Hardware By @Scooter Y, and @Meddy B.
-### Software By: @Stars, and @YourLocalDndNerd
+### Software By: @Stars, and @Chocowafer
 
 ------
 
