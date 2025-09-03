@@ -9470,7 +9470,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32 kHZ"
 			(at 294.64 91.4399 90)
 			(effects
 				(font
