@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
@@ -15,7 +15,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6700000166893005
+      "zones": 0.5699999928474426
     },
     "selection_filter": {
       "dimensions": true,
