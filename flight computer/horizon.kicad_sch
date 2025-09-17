@@ -4400,6 +4400,16 @@
 		)
 		(uuid "a0673e42-8c0a-4574-8f06-299dfeb1ce57")
 	)
+	(text "-note: switched due to sercom-"
+		(exclude_from_sim no)
+		(at 97.028 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a197124f-d02e-4398-aa65-c8a626e7ada4")
+	)
 	(text "MCU → GPS TX"
 		(exclude_from_sim no)
 		(at 107.95 57.404 0)
@@ -4452,7 +4462,7 @@
 	)
 	(text "SPI Bus lines for Sensors \n(not including NAND, SD-CARD)"
 		(exclude_from_sim no)
-		(at 98.044 71.374 0)
+		(at 98.044 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6898,7 +6908,7 @@
 	)
 	(global_label "MOSI TMCU"
 		(shape input)
-		(at 127 69.85 180)
+		(at 127 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6908,7 +6918,7 @@
 		)
 		(uuid "bcf167cb-adff-40e5-9d4e-a6a396931bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4315 69.85 0)
+			(at 113.4315 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7062,7 @@
 	)
 	(global_label "MISO TMCU"
 		(shape input)
-		(at 127 72.39 180)
+		(at 127 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7062,7 +7072,7 @@
 		)
 		(uuid "d370be94-331d-4a16-b264-fb4008955e9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4315 72.39 0)
+			(at 113.4315 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
