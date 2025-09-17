@@ -4450,6 +4450,16 @@
 		)
 		(uuid "dc778c0e-4c99-4268-aa7a-44f92ddc29cd")
 	)
+	(text "-note: referenced to vddana-"
+		(exclude_from_sim no)
+		(at 108.966 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de7698d0-b8da-4d53-9e84-d021a31f01cd")
+	)
 	(text "USB Data Lines for \nProgramming"
 		(exclude_from_sim no)
 		(at 76.454 106.68 0)
