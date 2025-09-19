@@ -2596,6 +2596,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "5v"
+		(exclude_from_sim no)
+		(at 169.672 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38aa461c-a8c5-486b-a3bf-fc3e2363a328")
+	)
+	(text "5v"
+		(exclude_from_sim no)
+		(at 137.414 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c92618d-a4a8-4125-96e1-632ec75072c7")
+	)
+	(text "3.6v"
+		(exclude_from_sim no)
+		(at 223.52 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "634036dd-9889-4563-96a6-a7717350e007")
+	)
 	(junction
 		(at 213.36 102.87)
 		(diameter 0)
