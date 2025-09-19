@@ -9174,6 +9174,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 142.24) (xy 175.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04292df6-053a-4c3c-a26b-5e6bfda6a266")
+	)
+	(wire
+		(pts
 			(xy -30.48 224.79) (xy -20.32 224.79)
 		)
 		(stroke
@@ -9924,16 +9934,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 142.24) (xy 175.26 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dbe6bd8-a292-4f26-a25b-b701fa65b1d8")
-	)
-	(wire
-		(pts
 			(xy 142.24 -15.24) (xy 135.89 -15.24)
 		)
 		(stroke
@@ -10311,6 +10311,16 @@
 			(type default)
 		)
 		(uuid "d2898c87-ea1b-4e45-8ce6-8827c39119c2")
+	)
+	(wire
+		(pts
+			(xy 167.64 144.78) (xy 167.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5999de6-bb3e-4ef7-8a1f-007aa6596db6")
 	)
 	(wire
 		(pts
@@ -15048,7 +15058,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3912ce41-4f89-44fa-894a-0142ad43117a")
 		(property "Reference" "#PWR0127"
 			(at 171.45 148.59 0)
@@ -15060,7 +15069,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 171.4499 156.21 90)
+			(at 178.308 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18583,7 +18592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 146.05 180)
+		(at 167.64 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18591,7 +18600,7 @@
 		(dnp no)
 		(uuid "8bedaa1a-94c0-442a-953c-bd928fe17c48")
 		(property "Reference" "R12"
-			(at 176.022 149.86 90)
+			(at 163.576 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18599,7 +18608,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 177.546 150.114 90)
+			(at 165.1 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18616,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.768 146.05 90)
+			(at 169.418 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 146.05 0)
+			(at 167.64 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18625,7 +18634,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 146.05 0)
+			(at 167.64 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19897,7 +19906,7 @@
 		(dnp no)
 		(uuid "a939800b-784c-485c-8d2b-2655f448d358")
 		(property "Reference" "R54"
-			(at 166.878 148.336 90)
+			(at 173.736 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19905,7 +19914,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 168.402 148.59 90)
+			(at 175.26 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23579,16 +23588,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 173.99 149.86 180)
+		(at 167.64 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f08a4d13-95af-497a-98ae-45f52f50b3b6")
 		(property "Reference" "#PWR0116"
-			(at 173.99 146.05 0)
+			(at 167.64 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23597,7 +23605,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 173.9899 153.67 90)
+			(at 166.116 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23606,7 +23614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 149.86 0)
+			(at 167.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23615,7 +23623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 149.86 0)
+			(at 167.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23624,7 +23632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 149.86 0)
+			(at 167.64 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
