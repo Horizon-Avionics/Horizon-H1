@@ -11510,7 +11510,7 @@
 	)
 	(global_label "SD_DETECT"
 		(shape input)
-		(at 227.33 156.21 270)
+		(at 227.33 153.67 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11520,7 +11520,7 @@
 		)
 		(uuid "ad6f14d5-afc1-4ff3-929c-2c017961d39f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 169.4155 90)
+			(at 227.33 166.8755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
