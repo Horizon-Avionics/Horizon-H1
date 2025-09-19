@@ -2626,6 +2626,16 @@
 		)
 		(uuid "634036dd-9889-4563-96a6-a7717350e007")
 	)
+	(text "5v"
+		(exclude_from_sim no)
+		(at 117.602 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "646b8b1c-1fba-46a5-a3ee-cb1cfccd6420")
+	)
 	(junction
 		(at 213.36 102.87)
 		(diameter 0)
