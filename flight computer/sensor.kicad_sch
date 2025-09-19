@@ -8704,6 +8704,16 @@
 		)
 		(uuid "708f9cad-5155-4728-baea-15da821b060b")
 	)
+	(text "I rushed to the canopy where the other teenagers were watching from afar and broke the news to them. The words hung in the air for a split second, before the low murmur of panic began to ripple through the group. Faces that were once full of excitement now wore masks of disbelief. I could hear snippets of frantic conversation: 'We can't be out of hydrogen!' 'This isn't happening.' 'What are we supposed to do?'\nThe balloon, still climbing higher with every minute, seemed almost oblivious to the chaos below. My stomach twisted. It felt like we were teetering on the edge of a cliff.\nCharlie was the first to turn to me, eyes wide. 'What now?' His voice was tight, like he was hoping I'd have some magical solution to this.\nI felt the weight of his gaze on me-the weight of everyone's hopes on me-and I knew I had to do something. Fast. But nothing came to mind. My head was spinning.\nI glanced back at the balloon, growing smaller by the second, and then I saw it-a flash of inspiration. The valve on the hydrogen tank. I remembered something from the night before, something Max and I had discussed in passing as we double-checked the tanks. A manual release valve.\nWithout thinking, I grabbed the walkie-talkie from my belt. 'Max! The valve! Release the pressure! We can boost the balloon higher without needing more hydrogen!'\nThere was a long pause before Max's voice crackled through the speaker. 'What? Are you crazy? That's gonna-'\n'I don't have time for why or how, just do it!' I shouted into the mic. 'Now!'\nI slammed the walkie-talkie down, my heart racing.\nFor a heartbeat, everything stopped. Then came the sound-the unmistakable hiss of gas escaping from the valve. It was like someone had cracked open a dam. But this wasn't a risk-it was our chance.\nThe balloon jerked upward, gaining more lift. I watched in disbelief as it began to climb faster. We had just enough hydrogen to get it airborne, but not enough to make it last as long as we'd hoped. By releasing some pressure, we'd given it a burst-enough to send it higher and faster, without risking a catastrophic failure.\nI turned to the group, eyes wide with adrenaline. 'It's working!' I yelled. 'Everyone-now!'\nMax scrambled to get everyone in position, and in that frantic moment, chaos turned into action. We started securing the final payloads, quickly working as a team. The energy was palpable-everyone had a job, and no one was wasting time.\nThe balloon surged higher, carried by the decision I'd just made on pure instinct. My heart pounded in my ears as I watched it climb into the sky, the bright sun shining off its latex skin. This was it. This was the moment everything hinged on.\nWe hadn't just saved the launch. We had redefined it."
+		(exclude_from_sim no)
+		(at 137.922 -47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8593f05f-c0aa-4f16-8962-6ba501c84fad")
+	)
 	(text "Interrupt / Wake"
 		(exclude_from_sim no)
 		(at 13.97 109.22 0)
@@ -9804,7 +9814,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 102.87) (xy 245.11 102.87)
+			(xy 266.7 102.87) (xy 245.11 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11114,7 +11124,7 @@
 	)
 	(global_label "CS_BARO TMCU"
 		(shape input)
-		(at 265.43 102.87 0)
+		(at 266.7 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11124,7 +11134,7 @@
 		)
 		(uuid "5bfbe832-764d-4fbe-9d50-91552cdbe6fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.8085 102.87 0)
+			(at 284.0785 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14785,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 265.43 95.25 0)
+		(at 266.7 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,7 +14793,7 @@
 		(dnp no)
 		(uuid "365169e5-7d2c-40fc-8228-5ecc6766b440")
 		(property "Reference" "#PWR0112"
-			(at 265.43 99.06 0)
+			(at 266.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +14802,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 265.43 89.408 90)
+			(at 266.7 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14800,7 +14810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 95.25 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +14819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 95.25 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 95.25 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +16936,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 99.06 0)
+		(at 266.7 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16934,7 +16944,7 @@
 		(dnp no)
 		(uuid "62d58b2a-b026-4a42-9753-82a840a4b7bd")
 		(property "Reference" "R39"
-			(at 264.668 81.788 0)
+			(at 265.938 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16943,7 +16953,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 264.668 84.328 0)
+			(at 265.938 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16952,7 +16962,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 263.652 99.06 90)
+			(at 264.922 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16961,7 +16971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 99.06 0)
+			(at 266.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16970,7 +16980,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 99.06 0)
+			(at 266.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
