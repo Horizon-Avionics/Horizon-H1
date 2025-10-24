@@ -12447,7 +12447,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "C14858"
 			(at -20.32 139.6999 0)
 			(effects
 				(font
@@ -12650,7 +12650,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "C14858"
 			(at -16.5037 227.33 90)
 			(effects
 				(font
@@ -18014,7 +18014,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1x3 servo"
+		(property "Value" "C2937625"
 			(at 94.996 208.788 90)
 			(effects
 				(font
@@ -19403,7 +19403,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1x3 servo"
+		(property "Value" "C2937625"
 			(at 74.676 208.788 90)
 			(effects
 				(font
@@ -19606,7 +19606,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "C14858"
 			(at 125.73 43.942 90)
 			(effects
 				(font
@@ -19674,7 +19674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2 pF"
+		(property "Value" "C519098"
 			(at -12.192 87.376 0)
 			(effects
 				(font
@@ -20148,7 +20148,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "C14858"
 			(at -83.82 139.6999 0)
 			(effects
 				(font
@@ -20495,7 +20495,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1x3 servo"
+		(property "Value" "C2937625"
 			(at 50.546 208.788 90)
 			(effects
 				(font
@@ -22040,7 +22040,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1x3 servo"
+		(property "Value" "C2937625"
 			(at 119.38 208.2799 90)
 			(effects
 				(font
@@ -23632,7 +23632,7 @@
 				)
 			)
 		)
-		(property "Value" "Buzzer"
+		(property "Value" "C94599"
 			(at 22.86 83.82 0)
 			(effects
 				(font

@@ -7570,7 +7570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "C4190"
 			(at -9.906 89.916 0)
 			(effects
 				(font
@@ -8505,7 +8505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
+		(property "Value" "C42431837"
 			(at 128.016 148.59 0)
 			(effects
 				(font
@@ -10000,7 +10000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
+		(property "Value" "C42431837"
 			(at 61.722 156.718 0)
 			(effects
 				(font
@@ -10216,7 +10216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
+		(property "Value" "C42431837"
 			(at 229.108 160.274 0)
 			(effects
 				(font
@@ -10494,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TMCU"
+		(property "Value" "C78624"
 			(at 143.764 91.186 0)
 			(effects
 				(font
@@ -10965,7 +10965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "C4190"
 			(at -20.574 105.664 0)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "C4190"
 			(at 208.026 75.184 0)
 			(effects
 				(font
@@ -11507,7 +11507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMCU"
+		(property "Value" "C78624"
 			(at 46.99 85.598 0)
 			(effects
 				(font
@@ -13825,7 +13825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "C4190"
 			(at 230.124 87.376 0)
 			(effects
 				(font
@@ -14158,7 +14158,7 @@
 				)
 			)
 		)
-		(property "Value" "SMLVN6RGB"
+		(property "Value" "C2909770"
 			(at 198.12 116.84 0)
 			(effects
 				(font
@@ -14908,7 +14908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "C22843"
 			(at 2.286 110.744 0)
 			(effects
 				(font
@@ -14935,13 +14935,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "C22843"
 			(at 7.62 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C22843"
+			(at 7.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
