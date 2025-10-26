@@ -39482,7 +39482,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "12.5pF"
+		(property "Value" "12pF"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "edf2310e-4fcd-4255-a882-93301794f3b5")
@@ -40170,7 +40170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "12.5pF"
+		(property "Value" "12pF"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "d6adcaa7-56dc-4859-a8c7-cad78df9c893")
