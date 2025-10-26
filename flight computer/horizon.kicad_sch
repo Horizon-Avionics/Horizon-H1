@@ -11773,7 +11773,7 @@
 		(dnp no)
 		(uuid "92630db8-7c0e-4034-acd4-0f7495128db3")
 		(property "Reference" "C10"
-			(at 309.372 88.646 90)
+			(at 315.214 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +11781,7 @@
 			)
 		)
 		(property "Value" "12.5pF"
-			(at 309.372 91.186 90)
+			(at 315.214 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13222,7 @@
 		(dnp no)
 		(uuid "c75a93bf-2461-4f9b-b35c-a1eae9ba5ca4")
 		(property "Reference" "C17"
-			(at 304.038 89.154 90)
+			(at 310.134 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13230,7 @@
 			)
 		)
 		(property "Value" "12.5pF"
-			(at 304.038 91.694 90)
+			(at 310.134 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
